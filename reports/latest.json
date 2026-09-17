@@ -1,39 +1,46 @@
 {
-  "generatedAt": "2026-09-17T17:33:26.021Z",
+  "generatedAt": "2026-09-17T17:37:27.779Z",
   "mode": "paper",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "bankrollUsdPerStrategy": 75,
   "tradeUsd": 1,
   "fast": {
     "confirmations": 2,
     "openPositions": 0,
-    "trades": 1,
-    "wins": 1,
+    "trades": 0,
+    "wins": 0,
     "losses": 0,
-    "winRatePct": 100,
-    "netPnlUsd": 0.031,
-    "averageWinUsd": 0.031,
+    "winRatePct": 0,
+    "netPnlUsd": 0,
+    "averageWinUsd": 0,
     "averageLossUsd": 0
   },
   "safe": {
     "confirmations": 3,
     "openPositions": 0,
-    "trades": 1,
+    "trades": 0,
     "wins": 0,
-    "losses": 1,
+    "losses": 0,
     "winRatePct": 0,
-    "netPnlUsd": -0.2578,
+    "netPnlUsd": 0,
     "averageWinUsd": 0,
-    "averageLossUsd": -0.2578
+    "averageLossUsd": 0
   },
   "tracking": {
-    "activeCandidates": 20,
+    "activeCandidates": 0,
     "durationMinutes": 60
   },
   "limits": {
     "maxOpenPerStrategy": 5,
     "dailyLossUsd": 5,
     "aspirationalDailyProfitUsd": 40
+  },
+  "riskGuard": {
+    "stressSellUsd": 25,
+    "fastMaxStressImpactPct": 2,
+    "safeMaxStressImpactPct": 0.7,
+    "safeMinLiquidityUsd": 15000,
+    "safeEstablishedMinLiquidityUsd": 75000
   },
   "experiment": {
     "design": "deterministische A/B-verdeling per mint; nooit dezelfde mint tegelijk in beide routes",
