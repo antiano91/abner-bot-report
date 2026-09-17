@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-17T19:03:15.736Z",
+  "generatedAt": "2026-09-17T20:14:35.771Z",
   "mode": "paper",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "bankrollUsdPerStrategy": 75,
   "tradeUsd": 1,
   "fast": {
     "confirmations": 2,
     "openPositions": 0,
-    "trades": 1,
+    "trades": 0,
     "wins": 0,
-    "losses": 1,
+    "losses": 0,
     "winRatePct": 0,
-    "netPnlUsd": -0.2355,
+    "netPnlUsd": 0,
     "averageWinUsd": 0,
-    "averageLossUsd": -0.2355
+    "averageLossUsd": 0
   },
   "safe": {
     "confirmations": 3,
@@ -27,7 +27,7 @@
     "averageLossUsd": 0
   },
   "tracking": {
-    "activeCandidates": 20,
+    "activeCandidates": 0,
     "durationMinutes": 60
   },
   "limits": {
@@ -40,7 +40,8 @@
     "fastMaxStressImpactPct": 2,
     "safeMaxStressImpactPct": 0.7,
     "safeMinLiquidityUsd": 15000,
-    "safeEstablishedMinLiquidityUsd": 75000
+    "safeEstablishedMinLiquidityUsd": 250000,
+    "overheatCooldownMinutes": 15
   },
   "experiment": {
     "design": "deterministische A/B-verdeling per mint; nooit dezelfde mint tegelijk in beide routes",
@@ -51,6 +52,39 @@
       1800,
       3600
     ]
+  },
+  "establishedRoute": {
+    "verifiedMints": [
+      {
+        "symbol": "SOL",
+        "mint": "So11111111111111111111111111111111111111112"
+      },
+      {
+        "symbol": "JUP",
+        "mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
+      },
+      {
+        "symbol": "BONK",
+        "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263"
+      },
+      {
+        "symbol": "WIF",
+        "mint": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm"
+      },
+      {
+        "symbol": "RAY",
+        "mint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"
+      },
+      {
+        "symbol": "JTO",
+        "mint": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL"
+      }
+    ],
+    "selection": "mint-whitelist; nooit symbool-only"
+  },
+  "checkpoint": {
+    "closedTradesRequired": 5,
+    "closedTradesNow": 0
   },
   "note": "Dagdoel is een ambitie en forceert geen trades. Resultaten zijn inclusief gesimuleerde kosten."
 }
