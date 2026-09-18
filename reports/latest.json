@@ -1,24 +1,26 @@
 {
-  "generatedAt": "2026-09-18T21:43:54.241Z",
+  "generatedAt": "2026-09-18T21:44:50.990Z",
   "mode": "paper",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "bankrollUsdPerStrategy": 500,
   "tradeUsd": 5,
   "normal": {
     "confirmationsFastVariant": 2,
     "confirmationsSafeVariant": 3,
+    "initialStopPct": 5,
     "openPositions": 0,
-    "trades": 3,
+    "trades": 0,
     "wins": 0,
-    "losses": 3,
+    "losses": 0,
     "winRatePct": 0,
-    "netPnlUsd": -0.6455,
+    "netPnlUsd": 0,
     "averageWinUsd": 0,
-    "averageLossUsd": -0.2152
+    "averageLossUsd": 0
   },
   "scalp": {
     "confirmationsFastVariant": 2,
     "confirmationsSafeVariant": 3,
+    "stopLossPct": 8,
     "openPositions": 0,
     "trades": 0,
     "wins": 0,
@@ -30,25 +32,30 @@
   },
   "hotMomentum": {
     "confirmations": 2,
+    "initialStopPct": 5,
     "openPositions": 0,
     "trailingActivationPct": 8,
     "trailingStopPct": 6,
-    "trades": 2,
-    "wins": 1,
-    "losses": 1,
-    "winRatePct": 50,
-    "netPnlUsd": -0.7244,
-    "averageWinUsd": 0.0367,
-    "averageLossUsd": -0.7611
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": 0,
+    "netPnlUsd": 0,
+    "averageWinUsd": 0,
+    "averageLossUsd": 0
   },
   "tracking": {
-    "activeCandidates": 32,
+    "activeCandidates": 0,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
-    "examplesWithOutcome": 389,
-    "netPositive": 64,
-    "netPositiveRatePct": 16.5,
-    "combinedShadowPnlUsd": -73.5599
+    "examplesWithOutcome": 0,
+    "netPositive": 0,
+    "netPositiveRatePct": 0,
+    "combinedShadowPnlUsd": 0,
+    "averageNetReturnPct": 0,
+    "byRoute": {},
+    "bySource": {},
+    "byMarketType": {}
   },
   "limits": {
     "maxOpenTotal": 5,
@@ -56,6 +63,7 @@
     "aspirationalDailyProfitUsd": 40
   },
   "riskGuard": {
+    "initialStopPct": 5,
     "stressSellUsd": 25,
     "normalMaxStressImpactPct": 2,
     "scalpMaxStressImpactPct": 0.7,
@@ -116,7 +124,7 @@
   },
   "checkpoint": {
     "closedTradesRequired": 30,
-    "closedTradesNow": 5
+    "closedTradesNow": 0
   },
-  "note": "v5.3 behoudt de v5.2-risicocontroles, selecteert per marktgroep zowel momentum- als kwaliteitskandidaten, laat volwassen sterke movers toe tot hot_momentum en gebruikt voor geverifieerde coins alleen SOL/USDC-pools rond de mediaanprijs."
+  "note": "v5.4 behoudt de volledige v5.3-kandidaatselectie en prijsfilters, begrenst het initiële koersverlies van normal en hot_momentum standaard op 5% en splitst shadowresultaten uit per route, bron en marktsoort."
 }
