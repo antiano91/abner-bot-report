@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-18T12:15:48.400Z",
+  "generatedAt": "2026-09-18T12:18:33.419Z",
   "mode": "paper",
-  "version": "0.4.9",
+  "version": "0.5.0",
   "bankrollUsdPerStrategy": 500,
   "tradeUsd": 5,
   "fast": {
@@ -27,8 +27,13 @@
     "averageLossUsd": 0
   },
   "tracking": {
-    "activeCandidates": 11,
-    "durationMinutes": 60
+    "activeCandidates": 0,
+    "durationMinutes": 60,
+    "batchSizePerTick": 12,
+    "examplesWithOutcome": 0,
+    "netPositive": 0,
+    "netPositiveRatePct": 0,
+    "combinedShadowPnlUsd": 0
   },
   "limits": {
     "maxOpenPerStrategy": 10,
@@ -94,5 +99,5 @@
     "closedTradesRequired": 30,
     "closedTradesNow": 0
   },
-  "note": "v4.9 inzetproef met ongewijzigde v4.8-strategie: minimaal 30 gesloten papertrades beoordelen. Resultaten zijn inclusief 3% gesimuleerde kosten; winst is niet gegarandeerd."
+  "note": "v5.0 volgt ook afgewezen kandidaten als shadow-trades op $5, inclusief 3% kosten, zodat filters met veel meer voorbeelden kunnen worden beoordeeld."
 }
