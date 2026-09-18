@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-09-18T14:33:26.298Z",
+  "generatedAt": "2026-09-18T14:35:59.371Z",
   "mode": "paper",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "bankrollUsdPerStrategy": 500,
   "tradeUsd": 5,
-  "fast": {
-    "confirmations": 2,
+  "normal": {
+    "confirmationsFastVariant": 2,
+    "confirmationsSafeVariant": 3,
     "openPositions": 0,
     "trades": 0,
     "wins": 0,
@@ -15,8 +16,9 @@
     "averageWinUsd": 0,
     "averageLossUsd": 0
   },
-  "safe": {
-    "confirmations": 3,
+  "scalp": {
+    "confirmationsFastVariant": 2,
+    "confirmationsSafeVariant": 3,
     "openPositions": 0,
     "trades": 0,
     "wins": 0,
@@ -40,35 +42,39 @@
     "averageLossUsd": 0
   },
   "tracking": {
-    "activeCandidates": 33,
-    "durationMinutes": 60,
+    "activeCandidates": 0,
+    "durationMinutes": 15,
     "batchSizePerTick": 12,
-    "examplesWithOutcome": 33,
-    "netPositive": 8,
-    "netPositiveRatePct": 24.2,
-    "combinedShadowPnlUsd": -8.8153
+    "examplesWithOutcome": 0,
+    "netPositive": 0,
+    "netPositiveRatePct": 0,
+    "combinedShadowPnlUsd": 0
   },
   "limits": {
-    "maxOpenPerStrategy": 10,
+    "maxOpenTotal": 5,
     "dailyLossUsd": 5,
     "aspirationalDailyProfitUsd": 40
   },
   "riskGuard": {
     "stressSellUsd": 25,
-    "fastMaxStressImpactPct": 2,
-    "safeMaxStressImpactPct": 0.7,
-    "safeMinLiquidityUsd": 15000,
-    "safeEstablishedMinLiquidityUsd": 250000,
-    "overheatCooldownMinutes": 15
+    "normalMaxStressImpactPct": 2,
+    "scalpMaxStressImpactPct": 0.7,
+    "scalpMinLiquidityUsd": 15000,
+    "scalpEstablishedMinLiquidityUsd": 250000,
+    "overheatCooldownMinutes": 15,
+    "requireSellQuote": true,
+    "quoteSlippageBps": 150,
+    "minimumExpectedNetProfitPct": 1,
+    "token2022ExtensionCheck": true
   },
   "experiment": {
     "design": "deterministische A/B-verdeling per mint; nooit dezelfde mint tegelijk in beide routes",
     "candidateMilestonesSeconds": [
       60,
+      180,
       300,
-      900,
-      1800,
-      3600
+      600,
+      900
     ],
     "maxCandidatesPerScan": 12,
     "marketTypes": [
@@ -112,5 +118,5 @@
     "closedTradesRequired": 30,
     "closedTradesNow": 0
   },
-  "note": "v5.1 voegt een afzonderlijke hot-momentum paperroute met twee bevestigingen en winstbeschermende trailing exit toe; shadow-onderzoek blijft actief."
+  "note": "v5.2 behoudt hot momentum en voegt afzonderlijke scalp/normaal-resultaten, Token-2022-controle, tweezijdige verkoopquotes, kostenmarge en snellere shadowmetingen toe."
 }
