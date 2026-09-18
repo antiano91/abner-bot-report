@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-18T18:37:19.580Z",
+  "generatedAt": "2026-09-18T18:39:41.465Z",
   "mode": "paper",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "bankrollUsdPerStrategy": 500,
   "tradeUsd": 5,
   "normal": {
     "confirmationsFastVariant": 2,
     "confirmationsSafeVariant": 3,
     "openPositions": 0,
-    "trades": 1,
+    "trades": 0,
     "wins": 0,
-    "losses": 1,
+    "losses": 0,
     "winRatePct": 0,
-    "netPnlUsd": -0.3176,
+    "netPnlUsd": 0,
     "averageWinUsd": 0,
-    "averageLossUsd": -0.3176
+    "averageLossUsd": 0
   },
   "scalp": {
     "confirmationsFastVariant": 2,
@@ -33,22 +33,22 @@
     "openPositions": 0,
     "trailingActivationPct": 8,
     "trailingStopPct": 6,
-    "trades": 1,
+    "trades": 0,
     "wins": 0,
-    "losses": 1,
+    "losses": 0,
     "winRatePct": 0,
-    "netPnlUsd": -0.9603,
+    "netPnlUsd": 0,
     "averageWinUsd": 0,
-    "averageLossUsd": -0.9603
+    "averageLossUsd": 0
   },
   "tracking": {
-    "activeCandidates": 34,
+    "activeCandidates": 0,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
-    "examplesWithOutcome": 449,
-    "netPositive": 85,
-    "netPositiveRatePct": 18.9,
-    "combinedShadowPnlUsd": 49477.4877
+    "examplesWithOutcome": 0,
+    "netPositive": 0,
+    "netPositiveRatePct": 0,
+    "combinedShadowPnlUsd": 0
   },
   "limits": {
     "maxOpenTotal": 5,
@@ -112,11 +112,11 @@
         "mint": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL"
       }
     ],
-    "selection": "mint-whitelist; nooit symbool-only"
+    "selection": "mint-whitelist + uitsluitend SOL/USDC quote-pools + 10% mediaan-outlierfilter"
   },
   "checkpoint": {
     "closedTradesRequired": 30,
-    "closedTradesNow": 2
+    "closedTradesNow": 0
   },
-  "note": "v5.2 behoudt hot momentum en voegt afzonderlijke scalp/normaal-resultaten, Token-2022-controle, tweezijdige verkoopquotes, kostenmarge en snellere shadowmetingen toe."
+  "note": "v5.3 behoudt de v5.2-risicocontroles, selecteert per marktgroep zowel momentum- als kwaliteitskandidaten, laat volwassen sterke movers toe tot hot_momentum en gebruikt voor geverifieerde coins alleen SOL/USDC-pools rond de mediaanprijs."
 }
