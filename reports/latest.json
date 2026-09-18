@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-09-18T10:56:20.522Z",
+  "generatedAt": "2026-09-18T11:01:55.112Z",
   "mode": "paper",
-  "version": "0.4.7",
-  "bankrollUsdPerStrategy": 75,
-  "tradeUsd": 1,
+  "version": "0.4.9",
+  "bankrollUsdPerStrategy": 500,
+  "tradeUsd": 5,
   "fast": {
-    "confirmations": 2,
-    "openPositions": 0,
-    "trades": 3,
-    "wins": 0,
-    "losses": 3,
-    "winRatePct": 0,
-    "netPnlUsd": -0.087,
-    "averageWinUsd": 0,
-    "averageLossUsd": -0.029
-  },
-  "safe": {
     "confirmations": 2,
     "openPositions": 0,
     "trades": 0,
@@ -26,12 +15,23 @@
     "averageWinUsd": 0,
     "averageLossUsd": 0
   },
+  "safe": {
+    "confirmations": 3,
+    "openPositions": 0,
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": 0,
+    "netPnlUsd": 0,
+    "averageWinUsd": 0,
+    "averageLossUsd": 0
+  },
   "tracking": {
-    "activeCandidates": 3,
+    "activeCandidates": 0,
     "durationMinutes": 60
   },
   "limits": {
-    "maxOpenPerStrategy": 5,
+    "maxOpenPerStrategy": 10,
     "dailyLossUsd": 5,
     "aspirationalDailyProfitUsd": 40
   },
@@ -51,7 +51,15 @@
       900,
       1800,
       3600
-    ]
+    ],
+    "maxCandidatesPerScan": 12,
+    "marketTypes": [
+      "new",
+      "mature",
+      "established"
+    ],
+    "minimumObservedMomentumPct": 4,
+    "simulatedBreakEvenPct": 3
   },
   "establishedRoute": {
     "verifiedMints": [
@@ -83,8 +91,8 @@
     "selection": "mint-whitelist; nooit symbool-only"
   },
   "checkpoint": {
-    "closedTradesRequired": 5,
-    "closedTradesNow": 3
+    "closedTradesRequired": 30,
+    "closedTradesNow": 0
   },
-  "note": "Dagdoel is een ambitie en forceert geen trades. Resultaten zijn inclusief gesimuleerde kosten."
+  "note": "v4.9 inzetproef met ongewijzigde v4.8-strategie: minimaal 30 gesloten papertrades beoordelen. Resultaten zijn inclusief 3% gesimuleerde kosten; winst is niet gegarandeerd."
 }
