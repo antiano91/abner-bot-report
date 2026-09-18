@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-18T13:42:56.702Z",
+  "generatedAt": "2026-09-18T13:48:57.639Z",
   "mode": "paper",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "bankrollUsdPerStrategy": 500,
   "tradeUsd": 5,
   "fast": {
@@ -26,14 +26,27 @@
     "averageWinUsd": 0,
     "averageLossUsd": 0
   },
+  "hotMomentum": {
+    "confirmations": 2,
+    "openPositions": 0,
+    "trailingActivationPct": 8,
+    "trailingStopPct": 6,
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": 0,
+    "netPnlUsd": 0,
+    "averageWinUsd": 0,
+    "averageLossUsd": 0
+  },
   "tracking": {
-    "activeCandidates": 33,
+    "activeCandidates": 0,
     "durationMinutes": 60,
     "batchSizePerTick": 12,
-    "examplesWithOutcome": 64,
-    "netPositive": 13,
-    "netPositiveRatePct": 20.3,
-    "combinedShadowPnlUsd": -0.7295
+    "examplesWithOutcome": 0,
+    "netPositive": 0,
+    "netPositiveRatePct": 0,
+    "combinedShadowPnlUsd": 0
   },
   "limits": {
     "maxOpenPerStrategy": 10,
@@ -99,5 +112,5 @@
     "closedTradesRequired": 30,
     "closedTradesNow": 0
   },
-  "note": "v5.0 volgt ook afgewezen kandidaten als shadow-trades op $5, inclusief 3% kosten, zodat filters met veel meer voorbeelden kunnen worden beoordeeld."
+  "note": "v5.1 voegt een afzonderlijke hot-momentum paperroute met twee bevestigingen en winstbeschermende trailing exit toe; shadow-onderzoek blijft actief."
 }
