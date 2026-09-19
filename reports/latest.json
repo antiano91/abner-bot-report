@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T18:06:59.414Z",
+  "generatedAt": "2026-09-19T18:27:11.660Z",
   "mode": "paper",
   "version": "0.5.6.1",
   "bankrollUsdPerStrategy": 500,
@@ -30,26 +30,26 @@
   },
   "hotMomentum": {
     "confirmations": 2,
-    "openPositions": 1,
+    "openPositions": 0,
     "trailingActivationPct": 8,
     "trailingStopPct": 6,
-    "trades": 0,
+    "trades": 1,
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "winRatePct": 0,
-    "netPnlUsd": 0,
+    "netPnlUsd": -0.9009,
     "averageWinUsd": 0,
-    "averageLossUsd": 0
+    "averageLossUsd": -0.9009
   },
   "tracking": {
-    "activeCandidates": 30,
+    "activeCandidates": 32,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 526,
-    "netPositive": 65,
-    "netPositiveRatePct": 12.4,
-    "combinedShadowPnlUsd": -72.7743
+    "examplesWithOutcome": 555,
+    "netPositive": 73,
+    "netPositiveRatePct": 13.2,
+    "combinedShadowPnlUsd": -76.5104
   },
   "limits": {
     "maxOpenTotal": 1,
@@ -117,27 +117,27 @@
   },
   "checkpoint": {
     "closedTradesRequired": 30,
-    "closedTradesNow": 0
+    "closedTradesNow": 1
   },
   "apiUsage": {
     "persistedSince": "2026-09-19T13:08:15.981Z",
     "requestsByProvider": {
-      "rpc": 1063,
-      "dexscreener": 9425,
+      "rpc": 1111,
+      "dexscreener": 9915,
       "jupiter": 6,
-      "geckoterminal": 98,
-      "github": 38,
+      "geckoterminal": 103,
+      "github": 40,
       "other": 0
     },
     "rpcByMethod": {
-      "getAccountInfo": 768,
-      "getTokenLargestAccounts": 295
+      "getAccountInfo": 803,
+      "getTokenLargestAccounts": 308
     },
-    "rpcCalls": 1063,
-    "callsThisHour": 357,
-    "scans": 98,
-    "lastScanRequests": 45,
-    "averageCallsPerScan": 108.469
+    "rpcCalls": 1111,
+    "callsThisHour": 902,
+    "scans": 103,
+    "lastScanRequests": 52,
+    "averageCallsPerScan": 108.495
   },
   "note": "v5.6.1 behoudt hot_momentum en alle veiligheidsfilters, dwingt maximaal één paperpositie af, quarantaineert extreme prijsdata en meet API/RPC-aanroepen automatisch zonder creditsaldo-instelling."
 }
