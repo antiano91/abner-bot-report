@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-19T13:04:23.484Z",
+  "generatedAt": "2026-09-19T13:09:22.535Z",
   "mode": "paper",
-  "version": "0.5.5",
+  "version": "0.5.6.1",
   "bankrollUsdPerStrategy": 500,
   "tradeUsd": 5,
   "normal": {
@@ -42,16 +42,17 @@
     "averageLossUsd": 0
   },
   "tracking": {
-    "activeCandidates": 34,
+    "activeCandidates": 0,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
-    "examplesWithOutcome": 933,
-    "netPositive": 118,
-    "netPositiveRatePct": 12.6,
-    "combinedShadowPnlUsd": 50226.5481
+    "quarantinedActive": 0,
+    "examplesWithOutcome": 0,
+    "netPositive": 0,
+    "netPositiveRatePct": 0,
+    "combinedShadowPnlUsd": 0
   },
   "limits": {
-    "maxOpenTotal": 5,
+    "maxOpenTotal": 1,
     "dailyLossUsd": 5,
     "aspirationalDailyProfitUsd": 40
   },
@@ -118,5 +119,25 @@
     "closedTradesRequired": 30,
     "closedTradesNow": 0
   },
-  "note": "v5.5 behoudt kandidaatselectie, prijs- en risicocontroles. Alleen hot_momentum opent papertrades; normal en scalp blijven shadow-only voor vergelijkbaar onderzoek."
+  "apiUsage": {
+    "persistedSince": "2026-09-19T13:08:15.981Z",
+    "requestsByProvider": {
+      "rpc": 18,
+      "dexscreener": 194,
+      "jupiter": 0,
+      "geckoterminal": 5,
+      "github": 0,
+      "other": 0
+    },
+    "rpcByMethod": {
+      "getAccountInfo": 14,
+      "getTokenLargestAccounts": 4
+    },
+    "rpcCalls": 18,
+    "callsThisHour": 217,
+    "scans": 4,
+    "lastScanRequests": 35,
+    "averageCallsPerScan": 54.25
+  },
+  "note": "v5.6.1 behoudt hot_momentum en alle veiligheidsfilters, dwingt maximaal één paperpositie af, quarantaineert extreme prijsdata en meet API/RPC-aanroepen automatisch zonder creditsaldo-instelling."
 }
