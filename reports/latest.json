@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T00:50:27.157Z",
+  "generatedAt": "2026-09-20T01:07:06.234Z",
   "mode": "paper",
   "version": "0.5.6.1",
   "bankrollUsdPerStrategy": 500,
@@ -33,12 +33,12 @@
     "openPositions": 0,
     "trailingActivationPct": 8,
     "trailingStopPct": 6,
-    "trades": 2,
-    "wins": 0,
+    "trades": 3,
+    "wins": 1,
     "losses": 2,
-    "winRatePct": 0,
-    "netPnlUsd": -1.4907,
-    "averageWinUsd": 0,
+    "winRatePct": 33.3,
+    "netPnlUsd": -1.2635,
+    "averageWinUsd": 0.2273,
     "averageLossUsd": -0.7454
   },
   "tracking": {
@@ -46,10 +46,10 @@
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 1199,
-    "netPositive": 150,
-    "netPositiveRatePct": 12.5,
-    "combinedShadowPnlUsd": -222.8682
+    "examplesWithOutcome": 1231,
+    "netPositive": 156,
+    "netPositiveRatePct": 12.7,
+    "combinedShadowPnlUsd": -227.8238
   },
   "limits": {
     "maxOpenTotal": 1,
@@ -117,27 +117,27 @@
   },
   "checkpoint": {
     "closedTradesRequired": 30,
-    "closedTradesNow": 2
+    "closedTradesNow": 3
   },
   "apiUsage": {
     "persistedSince": "2026-09-19T13:08:15.981Z",
     "requestsByProvider": {
-      "rpc": 2569,
-      "dexscreener": 22967,
-      "jupiter": 8,
-      "geckoterminal": 235,
-      "github": 94,
+      "rpc": 2645,
+      "dexscreener": 23460,
+      "jupiter": 12,
+      "geckoterminal": 240,
+      "github": 96,
       "other": 0
     },
     "rpcByMethod": {
-      "getAccountInfo": 1843,
-      "getTokenLargestAccounts": 726
+      "getAccountInfo": 1897,
+      "getTokenLargestAccounts": 748
     },
-    "rpcCalls": 2569,
-    "callsThisHour": 1521,
-    "scans": 235,
-    "lastScanRequests": 48,
-    "averageCallsPerScan": 110.098
+    "rpcCalls": 2645,
+    "callsThisHour": 355,
+    "scans": 240,
+    "lastScanRequests": 68,
+    "averageCallsPerScan": 110.221
   },
   "note": "v5.6.1 behoudt hot_momentum en alle veiligheidsfilters, dwingt maximaal één paperpositie af, quarantaineert extreme prijsdata en meet API/RPC-aanroepen automatisch zonder creditsaldo-instelling."
 }
