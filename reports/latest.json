@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T20:03:56.160Z",
+  "generatedAt": "2026-09-20T20:08:58.681Z",
   "mode": "paper",
   "version": "0.5.7",
   "bankrollUsdPerStrategy": 500,
@@ -58,14 +58,14 @@
     "marketTypes": {}
   },
   "tracking": {
-    "activeCandidates": 0,
+    "activeCandidates": 30,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 0,
-    "netPositive": 0,
-    "netPositiveRatePct": 0,
-    "combinedShadowPnlUsd": 0
+    "examplesWithOutcome": 30,
+    "netPositive": 2,
+    "netPositiveRatePct": 6.7,
+    "combinedShadowPnlUsd": -9.7936
   },
   "limits": {
     "maxOpenTotal": 1,
@@ -138,19 +138,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-20T20:03:56.027Z",
     "requestsByProvider": {
-      "rpc": 0,
-      "dexscreener": 2,
-      "jupiter": 0,
-      "geckoterminal": 1,
-      "github": 0,
+      "rpc": 50,
+      "dexscreener": 491,
+      "jupiter": 2,
+      "geckoterminal": 5,
+      "github": 2,
       "other": 0
     },
-    "rpcByMethod": {},
-    "rpcCalls": 0,
-    "callsThisHour": 3,
-    "scans": 0,
-    "lastScanRequests": 0,
-    "averageCallsPerScan": 0
+    "rpcByMethod": {
+      "getAccountInfo": 35,
+      "getTokenLargestAccounts": 15
+    },
+    "rpcCalls": 50,
+    "callsThisHour": 550,
+    "scans": 5,
+    "lastScanRequests": 33,
+    "averageCallsPerScan": 110
   },
   "note": "v5.7 vereist drie hot-bevestigingen, sterkere koopdruk en stabielere liquiditeit, gebruikt een 4% hot-stop en rapporteert exitredenen, bronnen, marktsoorten en drawdown."
 }
