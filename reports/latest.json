@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T23:20:26.378Z",
+  "generatedAt": "2026-09-20T23:25:32.278Z",
   "mode": "paper",
   "version": "0.5.7",
   "bankrollUsdPerStrategy": 500,
@@ -45,33 +45,34 @@
     "openPositions": 0,
     "trailingActivationPct": 8,
     "trailingStopPct": 6,
-    "trades": 1,
+    "trades": 2,
     "wins": 1,
-    "losses": 0,
-    "winRatePct": 100,
-    "netPnlUsd": 0.7231,
+    "losses": 1,
+    "winRatePct": 50,
+    "netPnlUsd": 0.6717,
     "averageWinUsd": 0.7231,
-    "averageLossUsd": 0,
-    "maxDrawdownUsd": 0,
+    "averageLossUsd": -0.0515,
+    "maxDrawdownUsd": -0.0515,
     "exitReasons": {
-      "dynamic_trailing_stop": 1
+      "dynamic_trailing_stop": 1,
+      "stop_loss": 1
     },
     "sources": {
-      "boosts_latest": 1
+      "boosts_latest": 2
     },
     "marketTypes": {
-      "new": 1
+      "new": 2
     }
   },
   "tracking": {
-    "activeCandidates": 32,
+    "activeCandidates": 31,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 330,
-    "netPositive": 47,
-    "netPositiveRatePct": 14.2,
-    "combinedShadowPnlUsd": -71.1694
+    "examplesWithOutcome": 354,
+    "netPositive": 50,
+    "netPositiveRatePct": 14.1,
+    "combinedShadowPnlUsd": -73.4376
   },
   "limits": {
     "maxOpenTotal": 1,
@@ -139,27 +140,27 @@
   },
   "checkpoint": {
     "closedTradesRequired": 30,
-    "closedTradesNow": 1
+    "closedTradesNow": 2
   },
   "apiUsage": {
     "persistedSince": "2026-09-20T20:03:56.027Z",
     "requestsByProvider": {
-      "rpc": 1179,
-      "dexscreener": 13744,
-      "jupiter": 16,
-      "geckoterminal": 135,
-      "github": 56,
+      "rpc": 1226,
+      "dexscreener": 14266,
+      "jupiter": 18,
+      "geckoterminal": 140,
+      "github": 58,
       "other": 0
     },
     "rpcByMethod": {
-      "getAccountInfo": 835,
-      "getTokenLargestAccounts": 344
+      "getAccountInfo": 868,
+      "getTokenLargestAccounts": 358
     },
-    "rpcCalls": 1179,
-    "callsThisHour": 2238,
-    "scans": 135,
+    "rpcCalls": 1226,
+    "callsThisHour": 2816,
+    "scans": 140,
     "lastScanRequests": 42,
-    "averageCallsPerScan": 112.074
+    "averageCallsPerScan": 112.2
   },
   "note": "v5.7 vereist drie hot-bevestigingen, sterkere koopdruk en stabielere liquiditeit, gebruikt een 4% hot-stop en rapporteert exitredenen, bronnen, marktsoorten en drawdown."
 }
