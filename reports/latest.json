@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-20T19:49:40.453Z",
+  "generatedAt": "2026-09-20T20:03:56.160Z",
   "mode": "paper",
-  "version": "0.5.6.1",
+  "version": "0.5.7",
   "bankrollUsdPerStrategy": 500,
   "tradeUsd": 5,
   "normal": {
@@ -14,7 +14,11 @@
     "winRatePct": 0,
     "netPnlUsd": 0,
     "averageWinUsd": 0,
-    "averageLossUsd": 0
+    "averageLossUsd": 0,
+    "maxDrawdownUsd": 0,
+    "exitReasons": {},
+    "sources": {},
+    "marketTypes": {}
   },
   "scalp": {
     "confirmationsFastVariant": 2,
@@ -26,30 +30,42 @@
     "winRatePct": 0,
     "netPnlUsd": 0,
     "averageWinUsd": 0,
-    "averageLossUsd": 0
+    "averageLossUsd": 0,
+    "maxDrawdownUsd": 0,
+    "exitReasons": {},
+    "sources": {},
+    "marketTypes": {}
   },
   "hotMomentum": {
-    "confirmations": 2,
+    "confirmations": 3,
+    "minBuySellRatio": 1.5,
+    "maxConfirmationPriceDropPct": 1.5,
+    "maxConfirmationLiquidityDropPct": 2,
+    "stopLossPct": 4,
     "openPositions": 0,
     "trailingActivationPct": 8,
     "trailingStopPct": 6,
-    "trades": 12,
-    "wins": 4,
-    "losses": 8,
-    "winRatePct": 33.3,
-    "netPnlUsd": -4.5331,
-    "averageWinUsd": 0.2268,
-    "averageLossUsd": -0.68
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "winRatePct": 0,
+    "netPnlUsd": 0,
+    "averageWinUsd": 0,
+    "averageLossUsd": 0,
+    "maxDrawdownUsd": 0,
+    "exitReasons": {},
+    "sources": {},
+    "marketTypes": {}
   },
   "tracking": {
-    "activeCandidates": 29,
+    "activeCandidates": 0,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 3198,
-    "netPositive": 437,
-    "netPositiveRatePct": 13.7,
-    "combinedShadowPnlUsd": -570.122
+    "examplesWithOutcome": 0,
+    "netPositive": 0,
+    "netPositiveRatePct": 0,
+    "combinedShadowPnlUsd": 0
   },
   "limits": {
     "maxOpenTotal": 1,
@@ -117,27 +133,24 @@
   },
   "checkpoint": {
     "closedTradesRequired": 30,
-    "closedTradesNow": 12
+    "closedTradesNow": 0
   },
   "apiUsage": {
-    "persistedSince": "2026-09-19T13:08:15.981Z",
+    "persistedSince": "2026-09-20T20:03:56.027Z",
     "requestsByProvider": {
-      "rpc": 7032,
-      "dexscreener": 80366,
-      "jupiter": 70,
-      "geckoterminal": 789,
-      "github": 340,
+      "rpc": 0,
+      "dexscreener": 2,
+      "jupiter": 0,
+      "geckoterminal": 1,
+      "github": 0,
       "other": 0
     },
-    "rpcByMethod": {
-      "getAccountInfo": 5058,
-      "getTokenLargestAccounts": 1974
-    },
-    "rpcCalls": 7032,
-    "callsThisHour": 4304,
-    "scans": 789,
-    "lastScanRequests": 47,
-    "averageCallsPerScan": 112.29
+    "rpcByMethod": {},
+    "rpcCalls": 0,
+    "callsThisHour": 3,
+    "scans": 0,
+    "lastScanRequests": 0,
+    "averageCallsPerScan": 0
   },
-  "note": "v5.6.1 behoudt hot_momentum en alle veiligheidsfilters, dwingt maximaal één paperpositie af, quarantaineert extreme prijsdata en meet API/RPC-aanroepen automatisch zonder creditsaldo-instelling."
+  "note": "v5.7 vereist drie hot-bevestigingen, sterkere koopdruk en stabielere liquiditeit, gebruikt een 4% hot-stop en rapporteert exitredenen, bronnen, marktsoorten en drawdown."
 }
