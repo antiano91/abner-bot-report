@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T17:12:48.784Z",
+  "generatedAt": "2026-09-21T17:13:15.437Z",
   "mode": "paper",
-  "version": "0.5.8.1",
+  "version": "0.5.8.2",
   "bankrollUsdPerStrategy": 75,
   "tradeUsd": 5,
   "normal": {
@@ -37,7 +37,9 @@
     "marketTypes": {}
   },
   "hotMomentum": {
-    "confirmations": 3,
+    "minimumM5ChangePct": 10,
+    "minimumConfirmationRisePct": 0.25,
+    "confirmations": 2,
     "minBuySellRatio": 1.5,
     "maxConfirmationPriceDropPct": 1.5,
     "maxConfirmationLiquidityDropPct": 2,
@@ -45,33 +47,27 @@
     "openPositions": 0,
     "trailingActivationPct": 8,
     "trailingStopPct": 6,
-    "trades": 1,
+    "trades": 0,
     "wins": 0,
-    "losses": 1,
+    "losses": 0,
     "winRatePct": 0,
-    "netPnlUsd": -0.4154,
+    "netPnlUsd": 0,
     "averageWinUsd": 0,
-    "averageLossUsd": -0.4154,
-    "maxDrawdownUsd": -0.4154,
-    "exitReasons": {
-      "stop_loss": 1
-    },
-    "sources": {
-      "boosts_latest": 1
-    },
-    "marketTypes": {
-      "new": 1
-    }
+    "averageLossUsd": 0,
+    "maxDrawdownUsd": 0,
+    "exitReasons": {},
+    "sources": {},
+    "marketTypes": {}
   },
   "tracking": {
-    "activeCandidates": 31,
+    "activeCandidates": 0,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 683,
-    "netPositive": 75,
-    "netPositiveRatePct": 11,
-    "combinedShadowPnlUsd": -145.7958,
+    "examplesWithOutcome": 310,
+    "netPositive": 30,
+    "netPositiveRatePct": 9.7,
+    "combinedShadowPnlUsd": -61.8844,
     "skippedInvalidLogLines": 0
   },
   "capitalPlan": {
@@ -153,16 +149,16 @@
   },
   "checkpoint": {
     "closedTradesRequired": 30,
-    "closedTradesNow": 1
+    "closedTradesNow": 0
   },
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
       "rpc": 2869,
-      "dexscreener": 29143,
+      "dexscreener": 29157,
       "jupiter": 4,
-      "geckoterminal": 291,
-      "github": 167,
+      "geckoterminal": 292,
+      "github": 169,
       "other": 0
     },
     "rpcByMethod": {
@@ -170,10 +166,10 @@
       "getTokenLargestAccounts": 818
     },
     "rpcCalls": 2869,
-    "callsThisHour": 600,
+    "callsThisHour": 617,
     "scans": 290,
     "lastScanRequests": 49,
-    "averageCallsPerScan": 111.979
+    "averageCallsPerScan": 112.038
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
@@ -181,9 +177,9 @@
     "automaticRestore": true
   },
   "dataQuality": {
-    "startupRepairedInvalidLogLines": 1,
+    "startupRepairedInvalidLogLines": 0,
     "currentSkippedInvalidLogLines": 0,
     "singleProcessLock": true
   },
-  "note": "v5.8.1 behoudt het €75/80%-kapitaalsysteem, voorkomt dubbele botprocessen en slaat beschadigde logregels apart op zonder alle rapportstatistieken te verliezen."
+  "note": "v5.8.2 verzamelt sneller echte paperdata met hot-momentum vanaf 10%, twee bevestigingen en 0,25% vervolgbeweging; alle veiligheids- en verkoopbaarheidsfilters blijven actief."
 }
