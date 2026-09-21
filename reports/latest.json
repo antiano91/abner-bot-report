@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T07:19:37.435Z",
+  "generatedAt": "2026-09-21T07:35:24.543Z",
   "mode": "paper",
   "version": "0.5.7",
   "bankrollUsdPerStrategy": 500,
@@ -58,7 +58,7 @@
     "marketTypes": {}
   },
   "tracking": {
-    "activeCandidates": 0,
+    "activeCandidates": 1,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
@@ -138,19 +138,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 0,
-      "dexscreener": 2,
+      "rpc": 72,
+      "dexscreener": 469,
       "jupiter": 0,
-      "geckoterminal": 1,
-      "github": 0,
+      "geckoterminal": 5,
+      "github": 2,
       "other": 0
     },
-    "rpcByMethod": {},
-    "rpcCalls": 0,
-    "callsThisHour": 3,
-    "scans": 0,
-    "lastScanRequests": 0,
-    "averageCallsPerScan": 0
+    "rpcByMethod": {
+      "getAccountInfo": 52,
+      "getTokenLargestAccounts": 20
+    },
+    "rpcCalls": 72,
+    "callsThisHour": 548,
+    "scans": 5,
+    "lastScanRequests": 54,
+    "averageCallsPerScan": 109.6
   },
   "note": "v5.7 vereist drie hot-bevestigingen, sterkere koopdruk en stabielere liquiditeit, gebruikt een 4% hot-stop en rapporteert exitredenen, bronnen, marktsoorten en drawdown."
 }
