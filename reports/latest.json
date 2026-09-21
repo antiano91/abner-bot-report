@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T11:06:56.464Z",
+  "generatedAt": "2026-09-21T11:08:20.741Z",
   "mode": "paper",
-  "version": "0.5.7.1",
+  "version": "0.5.8",
   "bankrollUsdPerStrategy": 500,
   "tradeUsd": 5,
   "normal": {
@@ -58,7 +58,7 @@
     "marketTypes": {}
   },
   "tracking": {
-    "activeCandidates": 32,
+    "activeCandidates": 0,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
@@ -68,9 +68,11 @@
     "combinedShadowPnlUsd": 0
   },
   "limits": {
-    "maxOpenTotal": 1,
+    "maxOpenTotal": 5,
     "dailyLossUsd": 5,
-    "aspirationalDailyProfitUsd": 40
+    "dailyProfitTargetUsd": 40,
+    "newEntriesStopped": false,
+    "entryLock": null
   },
   "riskGuard": {
     "stressSellUsd": 25,
@@ -139,10 +141,10 @@
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
       "rpc": 1226,
-      "dexscreener": 12898,
+      "dexscreener": 12960,
       "jupiter": 0,
-      "geckoterminal": 128,
-      "github": 58,
+      "geckoterminal": 129,
+      "github": 61,
       "other": 0
     },
     "rpcByMethod": {
@@ -150,15 +152,15 @@
       "getTokenLargestAccounts": 352
     },
     "rpcCalls": 1226,
-    "callsThisHour": 746,
+    "callsThisHour": 812,
     "scans": 128,
     "lastScanRequests": 55,
-    "averageCallsPerScan": 111.797
+    "averageCallsPerScan": 112.313
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
     "cloudStateBackup": true,
     "automaticRestore": true
   },
-  "note": "v5.7.1 behoudt de v5.7-strategie en bewaart status en handelslog buiten de versiemap, met veilige writes en automatische GitHub-herstelkopieën."
+  "note": "v5.8 kan maximaal vijf streng bevestigde hot_momentum-paperposities tegelijk openen. Na het gezamenlijke dagdoel of de verlieslimiet stoppen alleen nieuwe aankopen; scanning, shadow-analyse en positiebewaking blijven actief."
 }
