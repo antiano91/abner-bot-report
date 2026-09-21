@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T20:16:29.395Z",
+  "generatedAt": "2026-09-21T20:21:49.643Z",
   "mode": "paper",
-  "version": "0.5.8.3",
+  "version": "0.5.8.4",
   "bankrollUsdPerStrategy": 75,
   "tradeUsd": 5,
   "normal": {
@@ -41,6 +41,8 @@
     "maximumM5ChangePct": 35,
     "minimumConfirmationRisePct": 0.25,
     "confirmations": 2,
+    "activeWatchCandidates": 0,
+    "priorityWatchSlots": 4,
     "preEntryWatchSeconds": 90,
     "preEntryMinimumSamples": 6,
     "preEntryMaxDrawdownPct": 5,
@@ -65,14 +67,14 @@
     "marketTypes": {}
   },
   "tracking": {
-    "activeCandidates": 31,
+    "activeCandidates": 0,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 557,
-    "netPositive": 58,
-    "netPositiveRatePct": 10.4,
-    "combinedShadowPnlUsd": -109.1076,
+    "examplesWithOutcome": 310,
+    "netPositive": 30,
+    "netPositiveRatePct": 9.7,
+    "combinedShadowPnlUsd": -61.8844,
     "skippedInvalidLogLines": 0
   },
   "capitalPlan": {
@@ -159,22 +161,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 3474,
-      "dexscreener": 33952,
+      "rpc": 3501,
+      "dexscreener": 34374,
       "jupiter": 8,
-      "geckoterminal": 340,
-      "github": 202,
+      "geckoterminal": 345,
+      "github": 205,
       "other": 0
     },
     "rpcByMethod": {
-      "getAccountInfo": 2484,
-      "getTokenLargestAccounts": 990
+      "getAccountInfo": 2503,
+      "getTokenLargestAccounts": 998
     },
-    "rpcCalls": 3474,
-    "callsThisHour": 805,
-    "scans": 339,
-    "lastScanRequests": 50,
-    "averageCallsPerScan": 112.024
+    "rpcCalls": 3501,
+    "callsThisHour": 1262,
+    "scans": 343,
+    "lastScanRequests": 49,
+    "averageCallsPerScan": 112.05
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
@@ -186,5 +188,5 @@
     "currentSkippedInvalidLogLines": 0,
     "singleProcessLock": true
   },
-  "note": "v5.8.3 controleert contract en verkooproute en volgt prijs, koopdruk en liquiditeit minimaal 90 seconden vóór een hot-instap; pumps boven 35% worden niet nagejaagd."
+  "note": "v5.8.4 volgt kansrijke coins met voorrang en bewaart bevestigingen tussen trage brede scans; contract en verkooproute worden voor paperinstap opnieuw gecontroleerd."
 }
