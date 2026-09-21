@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T17:43:13.063Z",
+  "generatedAt": "2026-09-21T17:47:10.489Z",
   "mode": "paper",
-  "version": "0.5.8.2",
+  "version": "0.5.8.3",
   "bankrollUsdPerStrategy": 75,
   "tradeUsd": 5,
   "normal": {
@@ -38,8 +38,13 @@
   },
   "hotMomentum": {
     "minimumM5ChangePct": 10,
+    "maximumM5ChangePct": 35,
     "minimumConfirmationRisePct": 0.25,
     "confirmations": 2,
+    "preEntryWatchSeconds": 90,
+    "preEntryMinimumSamples": 6,
+    "preEntryMaxDrawdownPct": 5,
+    "preEntryMinimumLiquidityRetentionPct": 95,
     "minBuySellRatio": 1.5,
     "maxConfirmationPriceDropPct": 1.5,
     "maxConfirmationLiquidityDropPct": 2,
@@ -47,33 +52,27 @@
     "openPositions": 0,
     "trailingActivationPct": 8,
     "trailingStopPct": 6,
-    "trades": 1,
+    "trades": 0,
     "wins": 0,
-    "losses": 1,
+    "losses": 0,
     "winRatePct": 0,
-    "netPnlUsd": -1.1035,
+    "netPnlUsd": 0,
     "averageWinUsd": 0,
-    "averageLossUsd": -1.1035,
-    "maxDrawdownUsd": -1.1035,
-    "exitReasons": {
-      "stop_loss": 1
-    },
-    "sources": {
-      "boosts_latest": 1
-    },
-    "marketTypes": {
-      "new": 1
-    }
+    "averageLossUsd": 0,
+    "maxDrawdownUsd": 0,
+    "exitReasons": {},
+    "sources": {},
+    "marketTypes": {}
   },
   "tracking": {
-    "activeCandidates": 35,
+    "activeCandidates": 0,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 375,
-    "netPositive": 41,
-    "netPositiveRatePct": 10.9,
-    "combinedShadowPnlUsd": -69.9973,
+    "examplesWithOutcome": 310,
+    "netPositive": 30,
+    "netPositiveRatePct": 9.7,
+    "combinedShadowPnlUsd": -61.8844,
     "skippedInvalidLogLines": 0
   },
   "capitalPlan": {
@@ -155,27 +154,27 @@
   },
   "checkpoint": {
     "closedTradesRequired": 30,
-    "closedTradesNow": 1
+    "closedTradesNow": 0
   },
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 3044,
-      "dexscreener": 31030,
-      "jupiter": 6,
-      "geckoterminal": 310,
-      "github": 181,
+      "rpc": 3085,
+      "dexscreener": 31353,
+      "jupiter": 8,
+      "geckoterminal": 314,
+      "github": 184,
       "other": 0
     },
     "rpcByMethod": {
-      "getAccountInfo": 2176,
-      "getTokenLargestAccounts": 868
+      "getAccountInfo": 2205,
+      "getTokenLargestAccounts": 880
     },
-    "rpcCalls": 3044,
-    "callsThisHour": 2697,
-    "scans": 309,
-    "lastScanRequests": 52,
-    "averageCallsPerScan": 111.88
+    "rpcCalls": 3085,
+    "callsThisHour": 3070,
+    "scans": 312,
+    "lastScanRequests": 56,
+    "averageCallsPerScan": 112
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
@@ -187,5 +186,5 @@
     "currentSkippedInvalidLogLines": 0,
     "singleProcessLock": true
   },
-  "note": "v5.8.2 verzamelt sneller echte paperdata met hot-momentum vanaf 10%, twee bevestigingen en 0,25% vervolgbeweging; alle veiligheids- en verkoopbaarheidsfilters blijven actief."
+  "note": "v5.8.3 controleert contract en verkooproute en volgt prijs, koopdruk en liquiditeit minimaal 90 seconden vóór een hot-instap; pumps boven 35% worden niet nagejaagd."
 }
