@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-21T13:41:19.925Z",
+  "generatedAt": "2026-09-21T13:42:09.622Z",
   "mode": "paper",
-  "version": "0.5.8",
-  "bankrollUsdPerStrategy": 500,
+  "version": "0.5.8.1",
+  "bankrollUsdPerStrategy": 75,
   "tradeUsd": 5,
   "normal": {
     "confirmationsFastVariant": 2,
@@ -58,17 +58,29 @@
     "marketTypes": {}
   },
   "tracking": {
-    "activeCandidates": 30,
+    "activeCandidates": 0,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 0,
-    "netPositive": 0,
-    "netPositiveRatePct": 0,
-    "combinedShadowPnlUsd": 0
+    "examplesWithOutcome": 310,
+    "netPositive": 30,
+    "netPositiveRatePct": 9.7,
+    "combinedShadowPnlUsd": -61.8844,
+    "skippedInvalidLogLines": 0
+  },
+  "capitalPlan": {
+    "startingBalanceUsd": 75,
+    "currentBalanceUsd": 75,
+    "capitalUsePct": 80,
+    "openExposureUsd": 0,
+    "positionCapacity": 12,
+    "cumulativePnlUsd": 0,
+    "principalRecoveryThresholdUsd": 75,
+    "principalRecoveredUsd": 0,
+    "principalRecoveredAt": null
   },
   "limits": {
-    "maxOpenTotal": 5,
+    "emergencyMaxOpen": 1000,
     "dailyLossUsd": 5,
     "dailyProfitTargetUsd": 40,
     "newEntriesStopped": false,
@@ -140,27 +152,32 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 1848,
-      "dexscreener": 19858,
+      "rpc": 1863,
+      "dexscreener": 19940,
       "jupiter": 2,
-      "geckoterminal": 198,
-      "github": 106,
+      "geckoterminal": 200,
+      "github": 109,
       "other": 0
     },
     "rpcByMethod": {
-      "getAccountInfo": 1324,
-      "getTokenLargestAccounts": 524
+      "getAccountInfo": 1335,
+      "getTokenLargestAccounts": 528
     },
-    "rpcCalls": 1848,
-    "callsThisHour": 3243,
-    "scans": 197,
-    "lastScanRequests": 51,
-    "averageCallsPerScan": 111.736
+    "rpcCalls": 1863,
+    "callsThisHour": 3345,
+    "scans": 198,
+    "lastScanRequests": 60,
+    "averageCallsPerScan": 111.687
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
     "cloudStateBackup": true,
     "automaticRestore": true
   },
-  "note": "v5.8 kan maximaal vijf streng bevestigde hot_momentum-paperposities tegelijk openen. Na het gezamenlijke dagdoel of de verlieslimiet stoppen alleen nieuwe aankopen; scanning, shadow-analyse en positiebewaking blijven actief."
+  "dataQuality": {
+    "startupRepairedInvalidLogLines": 1,
+    "currentSkippedInvalidLogLines": 0,
+    "singleProcessLock": true
+  },
+  "note": "v5.8.1 behoudt het €75/80%-kapitaalsysteem, voorkomt dubbele botprocessen en slaat beschadigde logregels apart op zonder alle rapportstatistieken te verliezen."
 }
