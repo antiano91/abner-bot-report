@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T10:35:55.580Z",
+  "generatedAt": "2026-09-21T10:38:19.174Z",
   "mode": "paper",
-  "version": "0.5.7",
+  "version": "0.5.7.1",
   "bankrollUsdPerStrategy": 500,
   "tradeUsd": 5,
   "normal": {
@@ -58,7 +58,7 @@
     "marketTypes": {}
   },
   "tracking": {
-    "activeCandidates": 30,
+    "activeCandidates": 0,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
@@ -138,22 +138,27 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 1038,
-      "dexscreener": 10715,
+      "rpc": 1063,
+      "dexscreener": 10925,
       "jupiter": 0,
-      "geckoterminal": 106,
-      "github": 44,
+      "geckoterminal": 109,
+      "github": 46,
       "other": 0
     },
     "rpcByMethod": {
-      "getAccountInfo": 739,
-      "getTokenLargestAccounts": 299
+      "getAccountInfo": 757,
+      "getTokenLargestAccounts": 306
     },
-    "rpcCalls": 1038,
-    "callsThisHour": 2288,
-    "scans": 106,
+    "rpcCalls": 1063,
+    "callsThisHour": 2528,
+    "scans": 108,
     "lastScanRequests": 37,
-    "averageCallsPerScan": 112.292
+    "averageCallsPerScan": 112.435
   },
-  "note": "v5.7 vereist drie hot-bevestigingen, sterkere koopdruk en stabielere liquiditeit, gebruikt een 4% hot-stop en rapporteert exitredenen, bronnen, marktsoorten en drawdown."
+  "storage": {
+    "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
+    "cloudStateBackup": true,
+    "automaticRestore": true
+  },
+  "note": "v5.7.1 behoudt de v5.7-strategie en bewaart status en handelslog buiten de versiemap, met veilige writes en automatische GitHub-herstelkopieën."
 }
