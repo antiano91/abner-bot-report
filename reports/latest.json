@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T14:50:09.293Z",
+  "generatedAt": "2026-09-21T14:56:07.014Z",
   "mode": "paper",
   "version": "0.5.8.1",
   "bankrollUsdPerStrategy": 75,
@@ -45,36 +45,42 @@
     "openPositions": 0,
     "trailingActivationPct": 8,
     "trailingStopPct": 6,
-    "trades": 0,
+    "trades": 1,
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "winRatePct": 0,
-    "netPnlUsd": 0,
+    "netPnlUsd": -0.4154,
     "averageWinUsd": 0,
-    "averageLossUsd": 0,
-    "maxDrawdownUsd": 0,
-    "exitReasons": {},
-    "sources": {},
-    "marketTypes": {}
+    "averageLossUsd": -0.4154,
+    "maxDrawdownUsd": -0.4154,
+    "exitReasons": {
+      "stop_loss": 1
+    },
+    "sources": {
+      "boosts_latest": 1
+    },
+    "marketTypes": {
+      "new": 1
+    }
   },
   "tracking": {
-    "activeCandidates": 4,
+    "activeCandidates": 33,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 442,
-    "netPositive": 49,
-    "netPositiveRatePct": 11.1,
-    "combinedShadowPnlUsd": -87.4032,
+    "examplesWithOutcome": 474,
+    "netPositive": 55,
+    "netPositiveRatePct": 11.6,
+    "combinedShadowPnlUsd": -85.2259,
     "skippedInvalidLogLines": 0
   },
   "capitalPlan": {
     "startingBalanceUsd": 75,
-    "currentBalanceUsd": 75,
+    "currentBalanceUsd": 74.5846,
     "capitalUsePct": 80,
     "openExposureUsd": 0,
-    "positionCapacity": 12,
-    "cumulativePnlUsd": 0,
+    "positionCapacity": 11,
+    "cumulativePnlUsd": -0.4154,
     "principalRecoveryThresholdUsd": 75,
     "principalRecoveredUsd": 0,
     "principalRecoveredAt": null
@@ -147,27 +153,27 @@
   },
   "checkpoint": {
     "closedTradesRequired": 30,
-    "closedTradesNow": 0
+    "closedTradesNow": 1
   },
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 2216,
-      "dexscreener": 23756,
-      "jupiter": 2,
-      "geckoterminal": 236,
-      "github": 133,
+      "rpc": 2269,
+      "dexscreener": 24250,
+      "jupiter": 4,
+      "geckoterminal": 241,
+      "github": 136,
       "other": 0
     },
     "rpcByMethod": {
-      "getAccountInfo": 1585,
-      "getTokenLargestAccounts": 631
+      "getAccountInfo": 1622,
+      "getTokenLargestAccounts": 647
     },
-    "rpcCalls": 2216,
-    "callsThisHour": 3828,
-    "scans": 235,
-    "lastScanRequests": 49,
-    "averageCallsPerScan": 112.098
+    "rpcCalls": 2269,
+    "callsThisHour": 4385,
+    "scans": 240,
+    "lastScanRequests": 54,
+    "averageCallsPerScan": 112.083
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
