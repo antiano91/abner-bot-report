@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-22T07:54:35.835Z",
+  "generatedAt": "2026-09-22T08:03:19.406Z",
   "mode": "paper",
-  "version": "0.5.8.6",
+  "version": "0.5.8.7",
   "bankrollUsdPerStrategy": 75,
   "tradeUsd": 5,
   "normal": {
@@ -77,18 +77,33 @@
     }
   },
   "tracking": {
-    "activeCandidates": 70,
-    "earlyPoolCandidates": 30,
+    "activeCandidates": 0,
+    "earlyPoolCandidates": 0,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 1890,
-    "netPositive": 253,
-    "netPositiveRatePct": 13.4,
-    "combinedShadowPnlUsd": -445.6701,
+    "examplesWithOutcome": 1943,
+    "netPositive": 258,
+    "netPositiveRatePct": 13.3,
+    "combinedShadowPnlUsd": -419.8631,
     "skippedInvalidLogLines": 0
+  },
+  "entryDiagnostics": {
+    "windowMinutes": 60,
+    "scans": 0,
+    "selectedCandidates": 0,
+    "hotChecks": 0,
+    "topReasons": [],
+    "exploratoryPaper": {
+      "entries": 0,
+      "closed": 0,
+      "valid": 0,
+      "winsAfterEstimatedCosts": 0,
+      "sumEstimatedPnlUsd": 0,
+      "warning": "3-minuten schaduwscenario; contract, verkoopquote en echte uitvoering niet gecontroleerd"
+    }
   },
   "prelaunch": {
     "configured": 0,
@@ -178,22 +193,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 7360,
-      "dexscreener": 76419,
+      "rpc": 7416,
+      "dexscreener": 76896,
       "jupiter": 40,
-      "geckoterminal": 790,
-      "github": 481,
+      "geckoterminal": 800,
+      "github": 484,
       "other": 3
     },
     "rpcByMethod": {
-      "getAccountInfo": 5245,
-      "getTokenLargestAccounts": 2115
+      "getAccountInfo": 5285,
+      "getTokenLargestAccounts": 2131
     },
-    "rpcCalls": 7360,
-    "callsThisHour": 1885,
-    "scans": 750,
-    "lastScanRequests": 71,
-    "averageCallsPerScan": 113.457
+    "rpcCalls": 7416,
+    "callsThisHour": 237,
+    "scans": 754,
+    "lastScanRequests": 66,
+    "averageCallsPerScan": 113.58
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
