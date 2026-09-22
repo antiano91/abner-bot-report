@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-22T05:25:33.399Z",
+  "generatedAt": "2026-09-22T05:30:28.891Z",
   "mode": "paper",
-  "version": "0.5.8.4",
+  "version": "0.5.8.6",
   "bankrollUsdPerStrategy": 75,
   "tradeUsd": 5,
   "normal": {
@@ -77,15 +77,22 @@
     }
   },
   "tracking": {
-    "activeCandidates": 29,
+    "activeCandidates": 0,
+    "earlyPoolCandidates": 0,
+    "prelaunchWatched": 0,
+    "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 1349,
-    "netPositive": 170,
-    "netPositiveRatePct": 12.6,
-    "combinedShadowPnlUsd": -249.0927,
+    "examplesWithOutcome": 1351,
+    "netPositive": 171,
+    "netPositiveRatePct": 12.7,
+    "combinedShadowPnlUsd": -250.7542,
     "skippedInvalidLogLines": 0
+  },
+  "prelaunch": {
+    "configured": 0,
+    "auditStatus": "publieke auditlinks zijn onbevestigde verwijzingen; contract en verkooproute worden pas na de launch gecontroleerd"
   },
   "capitalPlan": {
     "startingBalanceUsd": 75,
@@ -171,22 +178,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 6729,
-      "dexscreener": 71404,
+      "rpc": 6764,
+      "dexscreener": 71774,
       "jupiter": 38,
-      "geckoterminal": 708,
-      "github": 453,
+      "geckoterminal": 714,
+      "github": 456,
       "other": 0
     },
     "rpcByMethod": {
-      "getAccountInfo": 4800,
-      "getTokenLargestAccounts": 1929
+      "getAccountInfo": 4825,
+      "getTokenLargestAccounts": 1939
     },
-    "rpcCalls": 6729,
-    "callsThisHour": 1955,
-    "scans": 707,
-    "lastScanRequests": 38,
-    "averageCallsPerScan": 112.209
+    "rpcCalls": 6764,
+    "callsThisHour": 2369,
+    "scans": 711,
+    "lastScanRequests": 40,
+    "averageCallsPerScan": 112.16
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
@@ -198,5 +205,5 @@
     "currentSkippedInvalidLogLines": 0,
     "singleProcessLock": true
   },
-  "note": "v5.8.4 volgt kansrijke coins met voorrang en bewaart bevestigingen tussen trage brede scans; contract en verkooproute worden voor paperinstap opnieuw gecontroleerd."
+  "note": "v5.8.6 volgt nieuwe pools en eventueel vooraf bekende exacte mints. Externe risico-info is geen audit. Contract- en verkoopcontrole blijven vóór paperinstap vereist."
 }
