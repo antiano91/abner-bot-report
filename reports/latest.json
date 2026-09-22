@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T01:27:14.318Z",
+  "generatedAt": "2026-09-22T01:32:48.977Z",
   "mode": "paper",
   "version": "0.5.8.4",
   "bankrollUsdPerStrategy": 75,
@@ -51,46 +51,48 @@
     "maxConfirmationPriceDropPct": 1.5,
     "maxConfirmationLiquidityDropPct": 2,
     "stopLossPct": 4,
-    "openPositions": 1,
+    "openPositions": 0,
     "trailingActivationPct": 8,
     "trailingStopPct": 6,
-    "trades": 2,
+    "trades": 3,
     "wins": 1,
-    "losses": 1,
-    "winRatePct": 50,
-    "netPnlUsd": -0.3577,
+    "losses": 2,
+    "winRatePct": 33.3,
+    "netPnlUsd": -0.7371,
     "averageWinUsd": 0.2519,
-    "averageLossUsd": -0.6096,
-    "maxDrawdownUsd": -0.6096,
+    "averageLossUsd": -0.4945,
+    "maxDrawdownUsd": -0.7371,
     "exitReasons": {
-      "stop_loss": 1,
+      "stop_loss": 2,
       "protected_net_exit": 1
     },
     "sources": {
-      "boosts_latest": 2
+      "boosts_latest": 2,
+      "boosts_top": 1
     },
     "marketTypes": {
-      "new": 2
+      "new": 2,
+      "mature": 1
     }
   },
   "tracking": {
-    "activeCandidates": 11,
+    "activeCandidates": 30,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 915,
-    "netPositive": 116,
-    "netPositiveRatePct": 12.7,
-    "combinedShadowPnlUsd": -174.2764,
+    "examplesWithOutcome": 939,
+    "netPositive": 117,
+    "netPositiveRatePct": 12.5,
+    "combinedShadowPnlUsd": -177.2269,
     "skippedInvalidLogLines": 0
   },
   "capitalPlan": {
     "startingBalanceUsd": 75,
-    "currentBalanceUsd": 73.1233,
+    "currentBalanceUsd": 72.744,
     "capitalUsePct": 80,
-    "openExposureUsd": 5,
+    "openExposureUsd": 0,
     "positionCapacity": 11,
-    "cumulativePnlUsd": -1.8767,
+    "cumulativePnlUsd": -2.256,
     "principalRecoveryThresholdUsd": 75,
     "principalRecoveredUsd": 0,
     "principalRecoveredAt": null
@@ -163,27 +165,27 @@
   },
   "checkpoint": {
     "closedTradesRequired": 30,
-    "closedTradesNow": 2
+    "closedTradesNow": 3
   },
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 5511,
-      "dexscreener": 57964,
+      "rpc": 5534,
+      "dexscreener": 58418,
       "jupiter": 20,
-      "geckoterminal": 576,
-      "github": 359,
+      "geckoterminal": 580,
+      "github": 362,
       "other": 0
     },
     "rpcByMethod": {
-      "getAccountInfo": 3926,
-      "getTokenLargestAccounts": 1585
+      "getAccountInfo": 3943,
+      "getTokenLargestAccounts": 1591
     },
-    "rpcCalls": 5511,
-    "callsThisHour": 2406,
-    "scans": 574,
-    "lastScanRequests": 61,
-    "averageCallsPerScan": 112.247
+    "rpcCalls": 5534,
+    "callsThisHour": 2890,
+    "scans": 578,
+    "lastScanRequests": 45,
+    "averageCallsPerScan": 112.308
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
