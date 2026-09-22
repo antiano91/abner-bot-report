@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T09:46:11.381Z",
+  "generatedAt": "2026-09-22T10:08:21.366Z",
   "mode": "paper",
   "version": "0.5.8.9",
   "bankrollUsdPerStrategy": 75,
@@ -77,80 +77,80 @@
     }
   },
   "tracking": {
-    "activeCandidates": 100,
-    "earlyPoolCandidates": 58,
+    "activeCandidates": 71,
+    "earlyPoolCandidates": 32,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
-    "quarantinedActive": 0,
-    "examplesWithOutcome": 2031,
-    "netPositive": 274,
-    "netPositiveRatePct": 13.5,
-    "combinedShadowPnlUsd": -453.7736,
+    "quarantinedActive": 1,
+    "examplesWithOutcome": 2141,
+    "netPositive": 287,
+    "netPositiveRatePct": 13.4,
+    "combinedShadowPnlUsd": -467.9351,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
-    "scans": 9,
-    "selectedCandidates": 92,
-    "hotChecks": 15,
+    "scans": 17,
+    "selectedCandidates": 187,
+    "hotChecks": 32,
     "topReasons": [
       {
         "reason": "grootste holder #%",
+        "count": 20
+      },
+      {
+        "reason": "slechts #/# observaties",
+        "count": 18
+      },
+      {
+        "reason": "nog volgen #s",
+        "count": 15
+      },
+      {
+        "reason": "hot #m volume $#",
+        "count": 14
+      },
+      {
+        "reason": "hot #m beweging #%",
+        "count": 12
+      },
+      {
+        "reason": "hot pairleeftijd buiten bereik",
+        "count": 11
+      },
+      {
+        "reason": "#m pump #% boven #%",
+        "count": 10
+      },
+      {
+        "reason": "hot koopdruk te laag",
+        "count": 10
+      },
+      {
+        "reason": "koopdruk teruggevallen #",
         "count": 10
       },
       {
         "reason": "hot liquiditeit $#",
         "count": 8
-      },
-      {
-        "reason": "hot #m volume $#",
-        "count": 8
-      },
-      {
-        "reason": "nog volgen #s",
-        "count": 7
-      },
-      {
-        "reason": "hot koopdruk te laag",
-        "count": 7
-      },
-      {
-        "reason": "koopdruk teruggevallen #",
-        "count": 7
-      },
-      {
-        "reason": "slechts #/# observaties",
-        "count": 6
-      },
-      {
-        "reason": "hot #m beweging #%",
-        "count": 4
-      },
-      {
-        "reason": "#m pump #% boven #%",
-        "count": 4
-      },
-      {
-        "reason": "hot pairleeftijd buiten bereik",
-        "count": 4
       }
     ],
     "exploratoryPaper": {
-      "entries": 2,
-      "closed": 1,
-      "valid": 1,
-      "winsAfterEstimatedCosts": 0,
-      "sumEstimatedPnlUsd": -1.4086,
+      "entries": 4,
+      "closed": 2,
+      "valid": 2,
+      "winsAfterEstimatedCosts": 1,
+      "sumEstimatedPnlUsd": -1.1719,
       "warning": "3-minuten schaduwscenario; contract, verkoopquote en echte uitvoering niet gecontroleerd"
     }
   },
   "sourceHealth": {
     "scan": 0,
-    "tracking": 12,
+    "tracking": 24,
     "tracking_candidate": 0,
-    "lastFailureAt": "2026-09-22T09:36:35.552Z",
+    "lastFailureAt": "2026-09-22T09:59:29.614Z",
     "lastError": "The operation was aborted due to timeout",
     "degraded": true
   },
@@ -242,22 +242,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 8200,
-      "dexscreener": 83296,
+      "rpc": 8298,
+      "dexscreener": 84339,
       "jupiter": 40,
-      "geckoterminal": 918,
-      "github": 524,
-      "other": 5
+      "geckoterminal": 936,
+      "github": 528,
+      "other": 7
     },
     "rpcByMethod": {
-      "getAccountInfo": 5836,
-      "getTokenLargestAccounts": 2364
+      "getAccountInfo": 5906,
+      "getTokenLargestAccounts": 2392
     },
-    "rpcCalls": 8200,
-    "callsThisHour": 3147,
-    "scans": 813,
-    "lastScanRequests": 87,
-    "averageCallsPerScan": 114.37
+    "rpcCalls": 8298,
+    "callsThisHour": 478,
+    "scans": 821,
+    "lastScanRequests": 57,
+    "averageCallsPerScan": 114.675
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
