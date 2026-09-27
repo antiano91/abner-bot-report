@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T22:06:36.611Z",
+  "generatedAt": "2026-09-27T23:20:01.602Z",
   "mode": "paper",
   "version": "0.5.9.14",
   "bankrollUsdPerStrategy": 75,
@@ -95,103 +95,91 @@
     }
   },
   "tracking": {
-    "activeCandidates": 22,
+    "activeCandidates": 36,
     "earlyPoolCandidates": 8,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 27556,
-    "netPositive": 4369,
+    "examplesWithOutcome": 27598,
+    "netPositive": 4378,
     "netPositiveRatePct": 15.9,
-    "combinedShadowPnlUsd": -7366.8379,
+    "combinedShadowPnlUsd": -7376.6911,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
-    "scans": 5,
-    "selectedCandidates": 44,
-    "hotChecks": 9,
+    "scans": 2,
+    "selectedCandidates": 17,
+    "hotChecks": 4,
     "topReasons": [
       {
-        "reason": "hot #m beweging #%",
-        "count": 6
-      },
-      {
         "reason": "slechts #/# observaties",
-        "count": 6
-      },
-      {
-        "reason": "#m pump #% boven #%",
-        "count": 6
-      },
-      {
-        "reason": "hot koopdruk te laag",
-        "count": 5
+        "count": 4
       },
       {
         "reason": "nog volgen #s",
-        "count": 5
-      },
-      {
-        "reason": "koopdruk teruggevallen #",
-        "count": 5
-      },
-      {
-        "reason": "hot pairleeftijd buiten bereik",
         "count": 3
       },
       {
         "reason": "hot #m volume $#",
-        "count": 2
+        "count": 1
+      },
+      {
+        "reason": "hot koopdruk te laag",
+        "count": 1
       },
       {
         "reason": "grootste holder #%",
-        "count": 2
+        "count": 1
       },
       {
-        "reason": "hot slechts # kopers",
+        "reason": "koopdruk teruggevallen #",
+        "count": 1
+      },
+      {
+        "reason": "hot #m beweging -#%",
         "count": 1
       }
     ],
     "exploratoryPaper": {
-      "entries": 1,
-      "closed": 1,
-      "valid": 1,
-      "winsAfterEstimatedCosts": 1,
-      "sumEstimatedPnlUsd": 2.7731,
+      "entries": 0,
+      "closed": 0,
+      "valid": 0,
+      "winsAfterEstimatedCosts": 0,
+      "sumEstimatedPnlUsd": 0,
       "warning": "3-minuten schaduwscenario; contract, verkoopquote en echte uitvoering niet gecontroleerd"
     }
   },
   "allCandidateShadow": {
-    "opened": 614,
-    "open": 0,
-    "closed": 618,
-    "valid": 522,
-    "invalidOrUnpriced": 96,
-    "winsAfterEstimatedCosts": 163,
-    "estimatedPnlUsd": 189.6173,
+    "opened": 646,
+    "open": 8,
+    "closed": 642,
+    "valid": 545,
+    "invalidOrUnpriced": 97,
+    "winsAfterEstimatedCosts": 169,
+    "estimatedPnlUsd": 195.8225,
     "bySource": {
       "latest_profile": {
-        "closed": 107,
-        "wins": 41,
-        "estimatedPnlUsd": -2.7375
+        "closed": 116,
+        "wins": 44,
+        "estimatedPnlUsd": 0.6626
       },
       "trending": {
-        "closed": 113,
-        "wins": 10,
-        "estimatedPnlUsd": -22.7289
+        "closed": 121,
+        "wins": 11,
+        "estimatedPnlUsd": -23.7936
       },
       "new_pools": {
-        "closed": 126,
-        "wins": 93,
-        "estimatedPnlUsd": 235.105
+        "closed": 129,
+        "wins": 94,
+        "estimatedPnlUsd": 239.2328
       },
       "boosts_latest": {
-        "closed": 58,
-        "wins": 15,
-        "estimatedPnlUsd": -1.9048
+        "closed": 61,
+        "wins": 16,
+        "estimatedPnlUsd": -2.1628
       },
       "boosts_top": {
         "closed": 63,
@@ -258,7 +246,7 @@
       "rejectedPriceModelPnlUsd": 22.6267,
       "outcomeLimitation": "alleen koers-nacontrole; geen bewijs dat afgewezen trades uitvoerbaar winstgevend waren"
     },
-    "noBuyRoute": 113,
+    "noBuyRoute": 114,
     "openQuotes": 0,
     "rejectedControlOpen": 0,
     "closedWithSellQuote": 0,
@@ -290,7 +278,7 @@
     "degraded": false
   },
   "uploadHealth": {
-    "lastSuccessAt": "2026-09-27T21:28:12.656Z",
+    "lastSuccessAt": "2026-09-27T22:10:56.006Z",
     "lastError": null,
     "retrySoon": false
   },
@@ -383,22 +371,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 35417,
-      "dexscreener": 268838,
-      "jupiter": 7948,
-      "geckoterminal": 5287,
-      "github": 1945,
-      "other": 191
+      "rpc": 35457,
+      "dexscreener": 269088,
+      "jupiter": 7951,
+      "geckoterminal": 5293,
+      "github": 1946,
+      "other": 192
     },
     "rpcByMethod": {
-      "getAccountInfo": 24505,
-      "getTokenLargestAccounts": 10912
+      "getAccountInfo": 24533,
+      "getTokenLargestAccounts": 10924
     },
-    "rpcCalls": 35417,
-    "callsThisHour": 113,
-    "scans": 2774,
-    "lastScanRequests": 49,
-    "averageCallsPerScan": 115.222
+    "rpcCalls": 35457,
+    "callsThisHour": 180,
+    "scans": 2777,
+    "lastScanRequests": 44,
+    "averageCallsPerScan": 115.206
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
