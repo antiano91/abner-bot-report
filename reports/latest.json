@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T11:42:21.988Z",
+  "generatedAt": "2026-09-28T11:51:47.078Z",
   "mode": "paper",
   "version": "0.5.9.16",
   "bankrollUsdPerStrategy": 75,
@@ -9,10 +9,10 @@
     "analyzedWins": 22,
     "losses": 27,
     "winRatePct": 44.9,
-    "cumulativeNetPnlAfterCostsUsd": -13.0922,
+    "cumulativeNetPnlAfterCostsUsd": -12.4483,
     "analyzedTradeLogNetPnlUsd": -13.0922,
-    "reconciliationDifferenceUsd": 0,
-    "currentPaperBalanceUsd": 61.9078,
+    "reconciliationDifferenceUsd": 0.6439,
+    "currentPaperBalanceUsd": 62.5517,
     "startingPaperBalanceUsd": 75,
     "label": "cumulatieve gerealiseerde paper-P&L na kosten; saldo is leidend en versieverliezen worden niet verborgen"
   },
@@ -95,28 +95,28 @@
     }
   },
   "tracking": {
-    "activeCandidates": 41,
+    "activeCandidates": 56,
     "earlyPoolCandidates": 25,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 28293,
-    "netPositive": 4586,
+    "examplesWithOutcome": 28321,
+    "netPositive": 4592,
     "netPositiveRatePct": 16.2,
-    "combinedShadowPnlUsd": -7633.5005,
+    "combinedShadowPnlUsd": -7635.3396,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
-    "scans": 16,
-    "selectedCandidates": 127,
-    "hotChecks": 29,
+    "scans": 14,
+    "selectedCandidates": 113,
+    "hotChecks": 30,
     "topReasons": [
       {
         "reason": "slechts #/# observaties",
-        "count": 17
+        "count": 18
       },
       {
         "reason": "hot #m volume $#",
@@ -124,7 +124,7 @@
       },
       {
         "reason": "grootste holder #%",
-        "count": 12
+        "count": 11
       },
       {
         "reason": "nog volgen #s",
@@ -132,51 +132,51 @@
       },
       {
         "reason": "liquiditeit behoud #%",
-        "count": 7
-      },
-      {
-        "reason": "hot pairleeftijd buiten bereik",
         "count": 6
       },
       {
         "reason": "hot slechts # kopers",
-        "count": 5
+        "count": 6
       },
       {
         "reason": "al -#% onder gevolgde piek",
         "count": 5
       },
       {
-        "reason": "hot liquiditeit $#",
-        "count": 4
+        "reason": "hot koopdruk te laag",
+        "count": 5
       },
       {
-        "reason": "hot slechts # verkopers",
-        "count": 4
+        "reason": "koopdruk teruggevallen #",
+        "count": 5
+      },
+      {
+        "reason": "koersmeting verouderd",
+        "count": 5
       }
     ],
     "exploratoryPaper": {
-      "entries": 9,
-      "closed": 8,
-      "valid": 8,
+      "entries": 8,
+      "closed": 7,
+      "valid": 7,
       "winsAfterEstimatedCosts": 3,
-      "sumEstimatedPnlUsd": -2.8411,
+      "sumEstimatedPnlUsd": -1.4787,
       "warning": "3-minuten schaduwscenario; contract, verkoopquote en echte uitvoering niet gecontroleerd"
     }
   },
   "allCandidateShadow": {
-    "opened": 49,
-    "open": 3,
-    "closed": 52,
-    "valid": 47,
+    "opened": 55,
+    "open": 2,
+    "closed": 59,
+    "valid": 54,
     "invalidOrUnpriced": 5,
-    "winsAfterEstimatedCosts": 18,
-    "estimatedPnlUsd": 3.3423,
+    "winsAfterEstimatedCosts": 22,
+    "estimatedPnlUsd": 6.29,
     "bySource": {
       "latest_profile": {
-        "closed": 8,
-        "wins": 3,
-        "estimatedPnlUsd": -2.704
+        "closed": 10,
+        "wins": 4,
+        "estimatedPnlUsd": -2.1178
       },
       "boosts_top": {
         "closed": 7,
@@ -184,9 +184,9 @@
         "estimatedPnlUsd": -0.196
       },
       "new_pools": {
-        "closed": 15,
-        "wins": 13,
-        "estimatedPnlUsd": 9.4262
+        "closed": 18,
+        "wins": 16,
+        "estimatedPnlUsd": 12.2438
       },
       "verified_RAY": {
         "closed": 1,
@@ -204,9 +204,9 @@
         "estimatedPnlUsd": -0.1428
       },
       "boosts_latest": {
-        "closed": 3,
+        "closed": 5,
         "wins": 1,
-        "estimatedPnlUsd": -0.1549
+        "estimatedPnlUsd": -0.611
       },
       "verified_JTO": {
         "closed": 1,
@@ -266,7 +266,7 @@
       "rejectedPriceModelPnlUsd": 0,
       "outcomeLimitation": "alleen koers-nacontrole; geen bewijs dat afgewezen trades uitvoerbaar winstgevend waren"
     },
-    "noBuyRoute": 10,
+    "noBuyRoute": 11,
     "openQuotes": 0,
     "rejectedControlOpen": 0,
     "closedWithSellQuote": 0,
@@ -298,7 +298,7 @@
     "degraded": false
   },
   "uploadHealth": {
-    "lastSuccessAt": "2026-09-28T11:36:15.742Z",
+    "lastSuccessAt": "2026-09-28T11:45:36.998Z",
     "lastError": null,
     "retrySoon": false
   },
@@ -308,11 +308,11 @@
   },
   "capitalPlan": {
     "startingBalanceUsd": 75,
-    "currentBalanceUsd": 61.9078,
+    "currentBalanceUsd": 62.5517,
     "capitalUsePct": 80,
-    "openExposureUsd": 5,
-    "positionCapacity": 9,
-    "cumulativePnlUsd": -13.0922,
+    "openExposureUsd": 1.25,
+    "positionCapacity": 10,
+    "cumulativePnlUsd": -12.4483,
     "principalRecoveryThresholdUsd": 75,
     "principalRecoveredUsd": 0,
     "principalRecoveredAt": null
@@ -391,22 +391,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 38040,
-      "dexscreener": 287018,
-      "jupiter": 8494,
-      "geckoterminal": 5777,
-      "github": 2127,
+      "rpc": 38069,
+      "dexscreener": 287279,
+      "jupiter": 8499,
+      "geckoterminal": 5783,
+      "github": 2129,
       "other": 225
     },
     "rpcByMethod": {
-      "getAccountInfo": 26311,
-      "getTokenLargestAccounts": 11729
+      "getAccountInfo": 26331,
+      "getTokenLargestAccounts": 11738
     },
-    "rpcCalls": 38040,
-    "callsThisHour": 1176,
-    "scans": 2958,
-    "lastScanRequests": 71,
-    "averageCallsPerScan": 115.511
+    "rpcCalls": 38069,
+    "callsThisHour": 1479,
+    "scans": 2960,
+    "lastScanRequests": 57,
+    "averageCallsPerScan": 115.535
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
