@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T06:11:31.725Z",
+  "generatedAt": "2026-09-29T06:21:45.967Z",
   "mode": "paper",
   "version": "0.5.9.18",
   "bankrollUsdPerStrategy": 75,
@@ -96,24 +96,24 @@
     }
   },
   "tracking": {
-    "activeCandidates": 36,
-    "earlyPoolCandidates": 17,
+    "activeCandidates": 34,
+    "earlyPoolCandidates": 8,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 31959,
-    "netPositive": 5273,
+    "examplesWithOutcome": 31975,
+    "netPositive": 5277,
     "netPositiveRatePct": 16.5,
-    "combinedShadowPnlUsd": -8721.749,
+    "combinedShadowPnlUsd": -8712.3723,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
     "scans": 12,
-    "selectedCandidates": 96,
-    "hotChecks": 18,
+    "selectedCandidates": 101,
+    "hotChecks": 19,
     "topReasons": [
       {
         "reason": "slechts #/# observaties",
@@ -121,6 +121,10 @@
       },
       {
         "reason": "grootste holder #%",
+        "count": 11
+      },
+      {
+        "reason": "hot #m volume $#",
         "count": 10
       },
       {
@@ -132,23 +136,19 @@
         "count": 10
       },
       {
-        "reason": "hot #m volume $#",
-        "count": 9
-      },
-      {
-        "reason": "hot pairleeftijd buiten bereik",
+        "reason": "hot liquiditeit $#",
         "count": 8
       },
       {
-        "reason": "nog volgen #s",
+        "reason": "liquiditeit behoud #%",
+        "count": 8
+      },
+      {
+        "reason": "hot pairleeftijd buiten bereik",
         "count": 7
       },
       {
-        "reason": "hot liquiditeit $#",
-        "count": 6
-      },
-      {
-        "reason": "liquiditeit behoud #%",
+        "reason": "nog volgen #s",
         "count": 6
       },
       {
@@ -166,13 +166,13 @@
     }
   },
   "allCandidateShadow": {
-    "opened": 141,
-    "open": 4,
-    "closed": 145,
-    "valid": 122,
-    "invalidOrUnpriced": 23,
-    "winsAfterEstimatedCosts": 38,
-    "estimatedPnlUsd": 16.6579,
+    "opened": 149,
+    "open": 8,
+    "closed": 149,
+    "valid": 125,
+    "invalidOrUnpriced": 24,
+    "winsAfterEstimatedCosts": 39,
+    "estimatedPnlUsd": 16.8497,
     "bySource": {
       "trending": {
         "closed": 22,
@@ -185,9 +185,9 @@
         "estimatedPnlUsd": -18.3395
       },
       "new_pools": {
-        "closed": 41,
-        "wins": 28,
-        "estimatedPnlUsd": 44.5734
+        "closed": 42,
+        "wins": 29,
+        "estimatedPnlUsd": 45.6143
       },
       "boosts_latest": {
         "closed": 11,
@@ -195,9 +195,9 @@
         "estimatedPnlUsd": 1.2894
       },
       "boosts_top": {
-        "closed": 19,
+        "closed": 21,
         "wins": 2,
-        "estimatedPnlUsd": -3.0053
+        "estimatedPnlUsd": -3.8544
       },
       "verified_SOL": {
         "closed": 2,
@@ -320,7 +320,7 @@
     "degraded": false
   },
   "uploadHealth": {
-    "lastSuccessAt": "2026-09-29T06:04:44.029Z",
+    "lastSuccessAt": "2026-09-29T06:15:00.300Z",
     "lastError": null,
     "retrySoon": false
   },
@@ -413,22 +413,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 42504,
-      "dexscreener": 315967,
+      "rpc": 42536,
+      "dexscreener": 316169,
       "jupiter": 9760,
-      "geckoterminal": 6545,
-      "github": 2426,
+      "geckoterminal": 6551,
+      "github": 2428,
       "other": 261
     },
     "rpcByMethod": {
-      "getAccountInfo": 29358,
-      "getTokenLargestAccounts": 13146
+      "getAccountInfo": 29380,
+      "getTokenLargestAccounts": 13156
     },
-    "rpcCalls": 42504,
-    "callsThisHour": 250,
-    "scans": 3257,
-    "lastScanRequests": 49,
-    "averageCallsPerScan": 115.893
+    "rpcCalls": 42536,
+    "callsThisHour": 492,
+    "scans": 3259,
+    "lastScanRequests": 58,
+    "averageCallsPerScan": 115.896
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
