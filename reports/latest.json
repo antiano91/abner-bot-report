@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-03T09:54:30.566Z",
+  "generatedAt": "2026-10-03T09:58:49.487Z",
   "mode": "paper",
-  "version": "0.5.9.27",
+  "version": "0.5.9.28",
   "bankrollUsdPerStrategy": 75,
   "tradeUsd": 5,
   "realizedPaperHeadline": {
@@ -97,68 +97,27 @@
     }
   },
   "tracking": {
-    "activeCandidates": 67,
-    "earlyPoolCandidates": 36,
+    "activeCandidates": 5,
+    "earlyPoolCandidates": 1,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 59367,
+    "examplesWithOutcome": 59385,
     "netPositive": 10232,
     "netPositiveRatePct": 17.2,
-    "combinedShadowPnlUsd": -17327.7782,
+    "combinedShadowPnlUsd": -17328.5632,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
-    "scans": 5,
-    "selectedCandidates": 44,
-    "hotChecks": 13,
-    "topReasons": [
-      {
-        "reason": "slechts #/# observaties",
-        "count": 10
-      },
-      {
-        "reason": "hot koopdruk te laag",
-        "count": 6
-      },
-      {
-        "reason": "nog volgen #s",
-        "count": 6
-      },
-      {
-        "reason": "koopdruk teruggevallen #",
-        "count": 6
-      },
-      {
-        "reason": "hot #m beweging #%",
-        "count": 4
-      },
-      {
-        "reason": "#m pump #% boven #%",
-        "count": 4
-      },
-      {
-        "reason": "hot #m volume $#",
-        "count": 4
-      },
-      {
-        "reason": "hot pairleeftijd buiten bereik",
-        "count": 3
-      },
-      {
-        "reason": "grootste holder #%",
-        "count": 2
-      },
-      {
-        "reason": "observaties nog te dicht op elkaar",
-        "count": 2
-      }
-    ],
+    "scans": 0,
+    "selectedCandidates": 0,
+    "hotChecks": 0,
+    "topReasons": [],
     "exploratoryPaper": {
-      "entries": 1,
+      "entries": 0,
       "closed": 0,
       "valid": 0,
       "winsAfterEstimatedCosts": 0,
@@ -167,45 +126,14 @@
     }
   },
   "allCandidateShadow": {
-    "opened": 9,
-    "open": 16,
-    "closed": 12,
-    "valid": 12,
+    "opened": 0,
+    "open": 17,
+    "closed": 0,
+    "valid": 0,
     "invalidOrUnpriced": 0,
-    "winsAfterEstimatedCosts": 5,
-    "estimatedPnlUsd": 5.9733,
-    "bySource": {
-      "new_pools": {
-        "closed": 7,
-        "wins": 5,
-        "estimatedPnlUsd": 6.6699
-      },
-      "trending": {
-        "closed": 1,
-        "wins": 0,
-        "estimatedPnlUsd": -0.1343
-      },
-      "boosts_top": {
-        "closed": 1,
-        "wins": 0,
-        "estimatedPnlUsd": -0.126
-      },
-      "verified_JUP": {
-        "closed": 1,
-        "wins": 0,
-        "estimatedPnlUsd": -0.15
-      },
-      "verified_WIF": {
-        "closed": 1,
-        "wins": 0,
-        "estimatedPnlUsd": -0.1418
-      },
-      "verified_BONK": {
-        "closed": 1,
-        "wins": 0,
-        "estimatedPnlUsd": -0.1445
-      }
-    },
+    "winsAfterEstimatedCosts": 0,
+    "estimatedPnlUsd": 0,
+    "bySource": {},
     "fixedHoldingSeconds": 180,
     "limitation": "Vanaf ontdekkingsprijs, vast 3-minutenvenster en vaste 3% kosten; geen contract- of verkoopquotecontrole. Niet uitvoerbare handelswinst."
   },
@@ -214,8 +142,8 @@
     "minimumEntryLiquidityUsd": 30000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-03T09:54:30.162Z",
-      "lastCycleMs": 1,
+      "lastRunAt": "2026-10-03T09:58:49.444Z",
+      "lastCycleMs": null,
       "lastError": null,
       "maximumObservedGapMs": 0,
       "deadlineFailures": 0,
@@ -313,13 +241,13 @@
     "tracking_candidate": 0,
     "lastFailureAt": null,
     "lastError": null,
-    "dexInFlight": 0,
-    "dexQueued": 0,
+    "dexInFlight": 4,
+    "dexQueued": 3,
     "pricedCandidatesPerScanMax": 24,
     "degraded": false
   },
   "uploadHealth": {
-    "lastSuccessAt": "2026-10-03T09:49:30.535Z",
+    "lastSuccessAt": null,
     "lastError": null,
     "retrySoon": false
   },
@@ -412,22 +340,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 75203,
-      "dexscreener": 577431,
+      "rpc": 75224,
+      "dexscreener": 577597,
       "jupiter": 12223,
-      "geckoterminal": 12581,
-      "github": 3821,
+      "geckoterminal": 12587,
+      "github": 3822,
       "other": 479
     },
     "rpcByMethod": {
-      "getAccountInfo": 51792,
-      "getTokenLargestAccounts": 23411
+      "getAccountInfo": 51807,
+      "getTokenLargestAccounts": 23417
     },
-    "rpcCalls": 75203,
-    "callsThisHour": 5741,
-    "scans": 5999,
-    "lastScanRequests": 35,
-    "averageCallsPerScan": 113.642
+    "rpcCalls": 75224,
+    "callsThisHour": 5935,
+    "scans": 6001,
+    "lastScanRequests": 41,
+    "averageCallsPerScan": 113.636
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
@@ -447,5 +375,5 @@
       "lastError": null
     }
   },
-  "note": "v5.9.27 laat naast new_pools ook latest_profile door naar dezelfde volledige quote-, contract-, kosten- en stopruimtecontrole, zodat de proef niet op nul pogingen blijft steken. Geen echte orders."
+  "note": "v5.9.28 meldt iedere uitvoerbare quote-paperopening en -sluiting via Telegram, inclusief nettoresultaat en actuele proefstand. De v5.9.27-bronnen en veiligheidsgrenzen blijven gelijk. Geen echte orders."
 }
