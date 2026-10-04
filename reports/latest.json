@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-04T03:33:55.158Z",
+  "generatedAt": "2026-10-04T03:37:25.804Z",
   "mode": "paper",
-  "version": "0.5.9.31",
+  "version": "0.5.9.32",
   "bankrollUsdPerStrategy": 75,
   "tradeUsd": 5,
   "realizedPaperHeadline": {
@@ -53,7 +53,7 @@
     "maximumM5ChangePct": 35,
     "minimumConfirmationRisePct": 0.25,
     "confirmations": 2,
-    "activeWatchCandidates": 1,
+    "activeWatchCandidates": 0,
     "priorityWatchSlots": 4,
     "preEntryWatchSeconds": 90,
     "preEntryMinimumSamples": 6,
@@ -97,135 +97,43 @@
     }
   },
   "tracking": {
-    "activeCandidates": 80,
-    "earlyPoolCandidates": 54,
+    "activeCandidates": 4,
+    "earlyPoolCandidates": 3,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
-    "quarantinedActive": 2,
-    "examplesWithOutcome": 66197,
-    "netPositive": 11648,
+    "quarantinedActive": 0,
+    "examplesWithOutcome": 66212,
+    "netPositive": 11655,
     "netPositiveRatePct": 17.6,
-    "combinedShadowPnlUsd": -19454.516,
+    "combinedShadowPnlUsd": -19451.9832,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
-    "scans": 35,
-    "selectedCandidates": 286,
-    "hotChecks": 60,
-    "topReasons": [
-      {
-        "reason": "slechts #/# observaties",
-        "count": 27
-      },
-      {
-        "reason": "hot koopdruk te laag",
-        "count": 27
-      },
-      {
-        "reason": "koopdruk teruggevallen #",
-        "count": 27
-      },
-      {
-        "reason": "hot #m volume $#",
-        "count": 18
-      },
-      {
-        "reason": "al -#% onder gevolgde piek",
-        "count": 14
-      },
-      {
-        "reason": "hot pairleeftijd buiten bereik",
-        "count": 13
-      },
-      {
-        "reason": "grootste holder #%",
-        "count": 12
-      },
-      {
-        "reason": "nog volgen #s",
-        "count": 12
-      },
-      {
-        "reason": "hot #m beweging #%",
-        "count": 11
-      },
-      {
-        "reason": "koersmeting verouderd",
-        "count": 11
-      }
-    ],
+    "scans": 0,
+    "selectedCandidates": 0,
+    "hotChecks": 0,
+    "topReasons": [],
     "exploratoryPaper": {
-      "entries": 6,
-      "closed": 5,
-      "valid": 5,
-      "winsAfterEstimatedCosts": 3,
-      "sumEstimatedPnlUsd": -1.9146,
+      "entries": 0,
+      "closed": 0,
+      "valid": 0,
+      "winsAfterEstimatedCosts": 0,
+      "sumEstimatedPnlUsd": 0,
       "warning": "3-minuten schaduwscenario; contract, verkoopquote en echte uitvoering niet gecontroleerd"
     }
   },
   "allCandidateShadow": {
-    "opened": 44,
-    "open": 23,
-    "closed": 52,
-    "valid": 43,
-    "invalidOrUnpriced": 9,
-    "winsAfterEstimatedCosts": 16,
-    "estimatedPnlUsd": -4.4316,
-    "bySource": {
-      "new_pools": {
-        "closed": 19,
-        "wins": 15,
-        "estimatedPnlUsd": 1.6175
-      },
-      "latest_profile": {
-        "closed": 5,
-        "wins": 0,
-        "estimatedPnlUsd": -2.7738
-      },
-      "boosts_top": {
-        "closed": 5,
-        "wins": 0,
-        "estimatedPnlUsd": -1.4591
-      },
-      "verified_SOL": {
-        "closed": 1,
-        "wins": 0,
-        "estimatedPnlUsd": -0.1413
-      },
-      "verified_JUP": {
-        "closed": 1,
-        "wins": 0,
-        "estimatedPnlUsd": -0.15
-      },
-      "verified_BONK": {
-        "closed": 1,
-        "wins": 0,
-        "estimatedPnlUsd": -0.1592
-      },
-      "trending": {
-        "closed": 6,
-        "wins": 1,
-        "estimatedPnlUsd": -0.6417
-      },
-      "verified_RAY": {
-        "closed": 1,
-        "wins": 0,
-        "estimatedPnlUsd": -0.15
-      },
-      "verified_JTO": {
-        "closed": 1,
-        "wins": 0,
-        "estimatedPnlUsd": -0.124
-      },
-      "boosts_latest": {
-        "closed": 3,
-        "wins": 0,
-        "estimatedPnlUsd": -0.45
-      }
-    },
+    "opened": 0,
+    "open": 24,
+    "closed": 0,
+    "valid": 0,
+    "invalidOrUnpriced": 0,
+    "winsAfterEstimatedCosts": 0,
+    "estimatedPnlUsd": 0,
+    "bySource": {},
     "fixedHoldingSeconds": 180,
     "limitation": "Vanaf ontdekkingsprijs, vast 3-minutenvenster en vaste 3% kosten; geen contract- of verkoopquotecontrole. Niet uitvoerbare handelswinst."
   },
@@ -234,35 +142,22 @@
     "minimumEntryLiquidityUsd": 15000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-04T03:33:54.043Z",
-      "lastCycleMs": 0,
+      "lastRunAt": "2026-10-04T03:37:25.751Z",
+      "lastCycleMs": null,
       "lastError": null,
       "maximumObservedGapMs": 0,
       "deadlineFailures": 0,
       "requestDeadlineMs": 1500,
       "inFlight": 0
     },
-    "buyQuotes": 1,
-    "quoteAttempts": 20,
-    "candidateFunnel": {
-      "ranked": 21,
-      "sourceEligible": 13,
-      "liquidEnough": 3,
-      "notOpen": 3,
-      "cooldownPassed": 0,
-      "minimumLiquidityUsd": 15000,
-      "retryCooldownMinutes": 30
-    },
-    "safetyRejectionReasons": {
-      "grootste holder 95.6%": 1,
-      "momentum buiten 4–35% bereik": 16,
-      "onvoldoende koopdruk of verkoopwaarnemingen": 4,
-      "grootste holder 92.24%": 1
-    },
+    "buyQuotes": 0,
+    "quoteAttempts": 0,
+    "candidateFunnel": null,
+    "safetyRejectionReasons": {},
     "rejectionCounts": {
-      "safety": 19,
+      "safety": 0,
       "noBuyRoute": 0,
-      "prefilter": 1,
+      "prefilter": 0,
       "secondCheck": 0
     },
     "freshRoundTripCheck": {
@@ -280,7 +175,7 @@
       "newPoolsMinimumWorstCaseReturnPct": 92.5,
       "secondCheckDelaySeconds": 10,
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 0,
       "secondCheckRejected": 0,
       "secondCheckFailureReasons": {},
       "rejectedControlClosed": 0,
@@ -355,13 +250,13 @@
     "tracking_candidate": 0,
     "lastFailureAt": null,
     "lastError": null,
-    "dexInFlight": 0,
-    "dexQueued": 0,
+    "dexInFlight": 4,
+    "dexQueued": 3,
     "pricedCandidatesPerScanMax": 24,
     "degraded": false
   },
   "uploadHealth": {
-    "lastSuccessAt": "2026-10-04T03:28:55.101Z",
+    "lastSuccessAt": null,
     "lastError": null,
     "retrySoon": false
   },
@@ -454,22 +349,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 84389,
-      "dexscreener": 673253,
-      "jupiter": 12294,
-      "geckoterminal": 14555,
-      "github": 4060,
-      "other": 19916
+      "rpc": 84431,
+      "dexscreener": 673566,
+      "jupiter": 12296,
+      "geckoterminal": 14563,
+      "github": 4061,
+      "other": 19979
     },
     "rpcByMethod": {
-      "getAccountInfo": 58051,
-      "getTokenLargestAccounts": 26338
+      "getAccountInfo": 58080,
+      "getTokenLargestAccounts": 26351
     },
-    "rpcCalls": 84389,
-    "callsThisHour": 4234,
-    "scans": 6986,
-    "lastScanRequests": 39,
-    "averageCallsPerScan": 115.727
+    "rpcCalls": 84431,
+    "callsThisHour": 4663,
+    "scans": 6989,
+    "lastScanRequests": 54,
+    "averageCallsPerScan": 115.738
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
@@ -481,13 +376,13 @@
     "currentSkippedInvalidLogLines": 0,
     "singleProcessLock": true,
     "cloudTradeBackup": {
-      "lastPreparedAt": "2026-10-04T03:03:43.053Z",
-      "rows": 63690,
-      "sourceBytes": 389590442,
-      "compressedBytes": 5715020,
-      "invalidLines": 0,
+      "lastPreparedAt": null,
+      "rows": null,
+      "sourceBytes": null,
+      "compressedBytes": null,
+      "invalidLines": null,
       "lastError": null
     }
   },
-  "note": "v5.9.31 meldt iedere uitvoerbare quote-paperopening en -sluiting via Telegram. De quote-funnel toont waar kandidaten stranden en waarschuwt na 30 minuten zonder quoteprogress. Alleen PAPER MODE; geen echte orders."
+  "note": "v5.9.32 meldt iedere uitvoerbare quote-paperopening en -sluiting via Telegram. De quote-funnel toont waar kandidaten stranden en waarschuwt na 30 minuten zonder quoteprogress. Alleen PAPER MODE; geen echte orders."
 }
