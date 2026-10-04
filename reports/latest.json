@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T15:10:12.196Z",
+  "generatedAt": "2026-10-04T15:15:13.495Z",
   "mode": "paper",
   "version": "0.5.9.34",
   "bankrollUsdPerStrategy": 75,
@@ -97,24 +97,24 @@
     }
   },
   "tracking": {
-    "activeCandidates": 127,
-    "earlyPoolCandidates": 99,
+    "activeCandidates": 128,
+    "earlyPoolCandidates": 98,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
-    "quarantinedActive": 2,
-    "examplesWithOutcome": 71988,
-    "netPositive": 12993,
-    "netPositiveRatePct": 18,
-    "combinedShadowPnlUsd": -20751.2726,
+    "quarantinedActive": 1,
+    "examplesWithOutcome": 72022,
+    "netPositive": 13005,
+    "netPositiveRatePct": 18.1,
+    "combinedShadowPnlUsd": -20745.3016,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
     "scans": 58,
-    "selectedCandidates": 329,
-    "hotChecks": 74,
+    "selectedCandidates": 330,
+    "hotChecks": 73,
     "topReasons": [
       {
         "reason": "slechts #/# observaties",
@@ -122,15 +122,15 @@
       },
       {
         "reason": "nog volgen #s",
-        "count": 53
+        "count": 56
       },
       {
         "reason": "hot pairleeftijd buiten bereik",
-        "count": 43
+        "count": 46
       },
       {
         "reason": "grootste tokenaccount #%; eigenaar nog niet als pool bevestigd",
-        "count": 40
+        "count": 42
       },
       {
         "reason": "hot koopdruk te laag",
@@ -150,35 +150,35 @@
       },
       {
         "reason": "hot #m volume $#",
-        "count": 23
+        "count": 25
       },
       {
         "reason": "hot slechts # kopers",
-        "count": 14
+        "count": 16
       }
     ],
     "exploratoryPaper": {
       "entries": 3,
-      "closed": 4,
-      "valid": 4,
+      "closed": 3,
+      "valid": 3,
       "winsAfterEstimatedCosts": 2,
-      "sumEstimatedPnlUsd": 0.7539,
+      "sumEstimatedPnlUsd": 1.4157,
       "warning": "3-minuten schaduwscenario; contract, verkoopquote en echte uitvoering niet gecontroleerd"
     }
   },
   "allCandidateShadow": {
-    "opened": 1250,
+    "opened": 1263,
     "open": 25,
-    "closed": 1250,
-    "valid": 976,
-    "invalidOrUnpriced": 274,
-    "winsAfterEstimatedCosts": 559,
-    "estimatedPnlUsd": 646.7316,
+    "closed": 1263,
+    "valid": 985,
+    "invalidOrUnpriced": 278,
+    "winsAfterEstimatedCosts": 566,
+    "estimatedPnlUsd": 660.7635,
     "bySource": {
       "new_pools": {
-        "closed": 617,
-        "wins": 501,
-        "estimatedPnlUsd": 708.8515
+        "closed": 626,
+        "wins": 508,
+        "estimatedPnlUsd": 722.8834
       },
       "trending": {
         "closed": 108,
@@ -240,7 +240,7 @@
     "minimumEntryLiquidityUsd": 30000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-04T15:10:12.152Z",
+      "lastRunAt": "2026-10-04T15:15:11.640Z",
       "lastCycleMs": 0,
       "lastError": null,
       "maximumObservedGapMs": 3959,
@@ -248,11 +248,11 @@
       "requestDeadlineMs": 1500,
       "inFlight": 0
     },
-    "buyQuotes": 27,
-    "quoteAttempts": 180,
+    "buyQuotes": 28,
+    "quoteAttempts": 182,
     "candidateFunnel": {
-      "ranked": 10,
-      "sourceEligible": 2,
+      "ranked": 17,
+      "sourceEligible": 9,
       "liquidEnough": 0,
       "notOpen": 0,
       "cooldownPassed": 0,
@@ -299,7 +299,7 @@
       "grootste tokenaccount 56.75%; eigenaar nog niet als pool bevestigd": 1,
       "grootste tokenaccount 79.3%; eigenaar nog niet als pool bevestigd": 1,
       "grootste tokenaccount 94.27%; eigenaar nog niet als pool bevestigd": 1,
-      "grootste tokenaccount 70.21%; eigenaar nog niet als pool bevestigd": 1,
+      "grootste tokenaccount 70.21%; eigenaar nog niet als pool bevestigd": 2,
       "grootste tokenaccount 91.68%; eigenaar nog niet als pool bevestigd": 1,
       "grootste tokenaccount 92.85%; eigenaar nog niet als pool bevestigd": 1,
       "grootste tokenaccount 94.69%; eigenaar nog niet als pool bevestigd": 1,
@@ -368,18 +368,18 @@
       "grootste tokenaccount 20.4%; eigenaar nog niet als pool bevestigd": 1
     },
     "rejectionCounts": {
-      "safety": 153,
+      "safety": 154,
       "noBuyRoute": 0,
       "prefilter": 0,
-      "secondCheck": 24
+      "secondCheck": 25
     },
     "freshRoundTripCheck": {
-      "attempted": 27,
-      "valid": 27,
-      "currentPassed": 24,
+      "attempted": 28,
+      "valid": 28,
+      "currentPassed": 25,
       "freshPassed": 3,
       "freshOnlyPassed": 0,
-      "currentOnlyPassed": 21,
+      "currentOnlyPassed": 22,
       "interpretation": "verse koop- en verkoopquote na tien seconden; de verse tokenhoeveelheid beslist over toelating"
     },
     "prefilter": {
@@ -389,15 +389,15 @@
       "secondCheckDelaySeconds": 10,
       "accepted": 3,
       "rejected": 0,
-      "secondCheckRejected": 24,
+      "secondCheckRejected": 25,
       "secondCheckFailureReasons": {
-        "quote_verouderd_te_langzaam_of_onvoldoende_stopruimte": 23,
+        "quote_verouderd_te_langzaam_of_onvoldoende_stopruimte": 24,
         "koers_teruggevallen": 1,
         "koopdruk_weg": 1
       },
-      "rejectedControlClosed": 24,
-      "rejectedControlWins": 16,
-      "rejectedControlQuoteNetPnlUsd": -0.1044,
+      "rejectedControlClosed": 25,
+      "rejectedControlWins": 17,
+      "rejectedControlQuoteNetPnlUsd": -0.0018,
       "rejectedControlUnresolved": 0,
       "rejectedWithPriceOutcome": 0,
       "rejectedWouldWinByPriceModel": 0,
@@ -485,7 +485,7 @@
     "degraded": false
   },
   "uploadHealth": {
-    "lastSuccessAt": "2026-10-04T15:05:12.121Z",
+    "lastSuccessAt": "2026-10-04T15:10:13.467Z",
     "lastError": null,
     "retrySoon": false
   },
@@ -578,22 +578,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 92945,
-      "dexscreener": 736970,
-      "jupiter": 12807,
-      "geckoterminal": 15911,
-      "github": 4221,
-      "other": 33357
+      "rpc": 93002,
+      "dexscreener": 737431,
+      "jupiter": 12825,
+      "geckoterminal": 15921,
+      "github": 4222,
+      "other": 33453
     },
     "rpcByMethod": {
-      "getAccountInfo": 64192,
-      "getTokenLargestAccounts": 28753
+      "getAccountInfo": 64233,
+      "getTokenLargestAccounts": 28769
     },
-    "rpcCalls": 92945,
-    "callsThisHour": 1297,
-    "scans": 7663,
-    "lastScanRequests": 54,
-    "averageCallsPerScan": 116.953
+    "rpcCalls": 93002,
+    "callsThisHour": 1940,
+    "scans": 7668,
+    "lastScanRequests": 29,
+    "averageCallsPerScan": 116.961
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
