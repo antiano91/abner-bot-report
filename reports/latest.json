@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T10:27:03.735Z",
+  "generatedAt": "2026-10-05T10:28:08.763Z",
   "mode": "paper",
   "version": "0.5.9.35",
   "bankrollUsdPerStrategy": 75,
@@ -97,48 +97,52 @@
     }
   },
   "tracking": {
-    "activeCandidates": 7,
+    "activeCandidates": 9,
     "earlyPoolCandidates": 4,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 79654,
-    "netPositive": 14806,
+    "examplesWithOutcome": 79657,
+    "netPositive": 14807,
     "netPositiveRatePct": 18.6,
-    "combinedShadowPnlUsd": -22437.9476,
+    "combinedShadowPnlUsd": -22440.9744,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
     "scans": 55,
     "selectedCandidates": 310,
-    "hotChecks": 43,
+    "hotChecks": 44,
     "topReasons": [
       {
         "reason": "slechts #/# observaties",
-        "count": 43
+        "count": 44
       },
       {
         "reason": "nog volgen #s",
-        "count": 40
+        "count": 41
       },
       {
         "reason": "hot pairleeftijd buiten bereik",
-        "count": 31
+        "count": 32
       },
       {
         "reason": "hot koopdruk te laag",
-        "count": 29
+        "count": 30
       },
       {
         "reason": "koopdruk teruggevallen #",
-        "count": 29
+        "count": 30
       },
       {
         "reason": "grootste niet-bevestigde tokenaccount #%",
-        "count": 28
+        "count": 29
+      },
+      {
+        "reason": "hot #m volume $#",
+        "count": 17
       },
       {
         "reason": "hot #m beweging #%",
@@ -146,10 +150,6 @@
       },
       {
         "reason": "#m pump #% boven #%",
-        "count": 16
-      },
-      {
-        "reason": "hot #m volume $#",
         "count": 16
       },
       {
@@ -167,18 +167,18 @@
     }
   },
   "allCandidateShadow": {
-    "opened": 2085,
-    "open": 26,
-    "closed": 2083,
-    "valid": 1601,
+    "opened": 2088,
+    "open": 28,
+    "closed": 2084,
+    "valid": 1602,
     "invalidOrUnpriced": 482,
-    "winsAfterEstimatedCosts": 866,
-    "estimatedPnlUsd": 1198.7094,
+    "winsAfterEstimatedCosts": 867,
+    "estimatedPnlUsd": 1198.786,
     "bySource": {
       "new_pools": {
-        "closed": 971,
-        "wins": 753,
-        "estimatedPnlUsd": 1230.611
+        "closed": 972,
+        "wins": 754,
+        "estimatedPnlUsd": 1230.6876
       },
       "boosts_top": {
         "closed": 101,
@@ -447,7 +447,7 @@
     "minimumEntryLiquidityUsd": 30000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-05T10:27:03.548Z",
+      "lastRunAt": "2026-10-05T10:28:08.583Z",
       "lastCycleMs": null,
       "lastError": null,
       "maximumObservedGapMs": 0,
@@ -458,8 +458,8 @@
     "buyQuotes": 35,
     "quoteAttempts": 65,
     "candidateFunnel": {
-      "ranked": 10,
-      "sourceEligible": 2,
+      "ranked": 19,
+      "sourceEligible": 12,
       "liquidEnough": 0,
       "notOpen": 0,
       "cooldownPassed": 0,
@@ -708,22 +708,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 107521,
-      "dexscreener": 824906,
+      "rpc": 107542,
+      "dexscreener": 824948,
       "jupiter": 14099,
-      "geckoterminal": 18163,
-      "github": 4758,
-      "other": 50716
+      "geckoterminal": 18165,
+      "github": 4759,
+      "other": 50722
     },
     "rpcByMethod": {
-      "getAccountInfo": 74666,
-      "getTokenLargestAccounts": 32855
+      "getAccountInfo": 74681,
+      "getTokenLargestAccounts": 32861
     },
-    "rpcCalls": 107521,
-    "callsThisHour": 1557,
-    "scans": 8786,
-    "lastScanRequests": 38,
-    "averageCallsPerScan": 116.112
+    "rpcCalls": 107542,
+    "callsThisHour": 1629,
+    "scans": 8787,
+    "lastScanRequests": 55,
+    "averageCallsPerScan": 116.107
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
