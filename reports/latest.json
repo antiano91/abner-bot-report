@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T10:44:35.030Z",
+  "generatedAt": "2026-10-05T10:45:37.713Z",
   "mode": "paper",
   "version": "0.5.9.35",
   "bankrollUsdPerStrategy": 75,
@@ -97,23 +97,23 @@
     }
   },
   "tracking": {
-    "activeCandidates": 13,
-    "earlyPoolCandidates": 5,
+    "activeCandidates": 4,
+    "earlyPoolCandidates": 2,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 79689,
+    "examplesWithOutcome": 79695,
     "netPositive": 14822,
     "netPositiveRatePct": 18.6,
-    "combinedShadowPnlUsd": -22409.5595,
+    "combinedShadowPnlUsd": -22410.4596,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
     "scans": 54,
-    "selectedCandidates": 307,
+    "selectedCandidates": 308,
     "hotChecks": 50,
     "topReasons": [
       {
@@ -130,15 +130,15 @@
       },
       {
         "reason": "grootste niet-bevestigde tokenaccount #%",
-        "count": 31
+        "count": 32
       },
       {
         "reason": "hot koopdruk te laag",
-        "count": 29
+        "count": 28
       },
       {
         "reason": "koopdruk teruggevallen #",
-        "count": 29
+        "count": 28
       },
       {
         "reason": "hot #m volume $#",
@@ -146,11 +146,11 @@
       },
       {
         "reason": "hot #m beweging #%",
-        "count": 17
+        "count": 16
       },
       {
         "reason": "#m pump #% boven #%",
-        "count": 17
+        "count": 16
       },
       {
         "reason": "hot slechts # kopers",
@@ -167,8 +167,8 @@
     }
   },
   "allCandidateShadow": {
-    "opened": 2117,
-    "open": 20,
+    "opened": 2120,
+    "open": 23,
     "closed": 2121,
     "valid": 1628,
     "invalidOrUnpriced": 493,
@@ -447,8 +447,8 @@
     "minimumEntryLiquidityUsd": 30000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-05T10:44:33.459Z",
-      "lastCycleMs": 1,
+      "lastRunAt": "2026-10-05T10:45:37.605Z",
+      "lastCycleMs": null,
       "lastError": null,
       "maximumObservedGapMs": 0,
       "deadlineFailures": 0,
@@ -458,8 +458,8 @@
     "buyQuotes": 35,
     "quoteAttempts": 65,
     "candidateFunnel": {
-      "ranked": 6,
-      "sourceEligible": 0,
+      "ranked": 18,
+      "sourceEligible": 10,
       "liquidEnough": 0,
       "notOpen": 0,
       "cooldownPassed": 0,
@@ -605,19 +605,19 @@
   },
   "sourceHealth": {
     "scan": 0,
-    "tracking": 1,
+    "tracking": 0,
     "tracking_candidate": 0,
-    "lastFailureAt": "2026-10-05T10:43:33.354Z",
-    "lastError": "The operation was aborted due to timeout",
-    "dexInFlight": 0,
-    "dexQueued": 0,
+    "lastFailureAt": null,
+    "lastError": null,
+    "dexInFlight": 4,
+    "dexQueued": 3,
     "pricedCandidatesPerScanMax": 24,
-    "degraded": true
+    "degraded": false
   },
   "uploadHealth": {
     "lastSuccessAt": null,
-    "lastError": "fetch failed",
-    "retrySoon": true
+    "lastError": null,
+    "retrySoon": false
   },
   "prelaunch": {
     "configured": 0,
@@ -708,22 +708,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 107765,
-      "dexscreener": 825601,
+      "rpc": 107783,
+      "dexscreener": 825652,
       "jupiter": 14099,
-      "geckoterminal": 18195,
-      "github": 4775,
-      "other": 50825
+      "geckoterminal": 18199,
+      "github": 4776,
+      "other": 50830
     },
     "rpcByMethod": {
-      "getAccountInfo": 74842,
-      "getTokenLargestAccounts": 32923
+      "getAccountInfo": 74855,
+      "getTokenLargestAccounts": 32928
     },
-    "rpcCalls": 107765,
-    "callsThisHour": 2654,
-    "scans": 8802,
-    "lastScanRequests": 33,
-    "averageCallsPerScan": 116.026
+    "rpcCalls": 107783,
+    "callsThisHour": 2733,
+    "scans": 8803,
+    "lastScanRequests": 56,
+    "averageCallsPerScan": 116.022
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
