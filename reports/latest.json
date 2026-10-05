@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T06:06:58.660Z",
+  "generatedAt": "2026-10-05T06:08:02.640Z",
   "mode": "paper",
   "version": "0.5.9.35",
   "bankrollUsdPerStrategy": 75,
@@ -97,32 +97,32 @@
     }
   },
   "tracking": {
-    "activeCandidates": 6,
-    "earlyPoolCandidates": 3,
+    "activeCandidates": 8,
+    "earlyPoolCandidates": 5,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 79114,
+    "examplesWithOutcome": 79116,
     "netPositive": 14538,
     "netPositiveRatePct": 18.4,
-    "combinedShadowPnlUsd": -22437.3626,
+    "combinedShadowPnlUsd": -22442.4826,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
     "scans": 57,
     "selectedCandidates": 345,
-    "hotChecks": 84,
+    "hotChecks": 85,
     "topReasons": [
       {
         "reason": "slechts #/# observaties",
-        "count": 84
+        "count": 85
       },
       {
         "reason": "nog volgen #s",
-        "count": 82
+        "count": 83
       },
       {
         "reason": "hot koopdruk te laag",
@@ -134,19 +134,19 @@
       },
       {
         "reason": "hot pairleeftijd buiten bereik",
-        "count": 43
+        "count": 44
       },
       {
         "reason": "grootste niet-bevestigde tokenaccount #%",
-        "count": 38
+        "count": 39
       },
       {
         "reason": "hot #m beweging #%",
-        "count": 33
+        "count": 34
       },
       {
         "reason": "#m pump #% boven #%",
-        "count": 32
+        "count": 33
       },
       {
         "reason": "hot #m volume $#",
@@ -167,13 +167,13 @@
     }
   },
   "allCandidateShadow": {
-    "opened": 1541,
-    "open": 25,
-    "closed": 1540,
-    "valid": 1192,
+    "opened": 1545,
+    "open": 27,
+    "closed": 1542,
+    "valid": 1194,
     "invalidOrUnpriced": 348,
     "winsAfterEstimatedCosts": 632,
-    "estimatedPnlUsd": 909.4081,
+    "estimatedPnlUsd": 909.0788,
     "bySource": {
       "new_pools": {
         "closed": 716,
@@ -201,9 +201,9 @@
         "estimatedPnlUsd": -1.6474
       },
       "trending": {
-        "closed": 124,
+        "closed": 126,
         "wins": 17,
-        "estimatedPnlUsd": -16.4273
+        "estimatedPnlUsd": -16.7566
       },
       "boosts_latest": {
         "closed": 73,
@@ -447,7 +447,7 @@
     "minimumEntryLiquidityUsd": 30000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-05T06:06:58.569Z",
+      "lastRunAt": "2026-10-05T06:08:02.523Z",
       "lastCycleMs": null,
       "lastError": null,
       "maximumObservedGapMs": 0,
@@ -458,11 +458,11 @@
     "buyQuotes": 35,
     "quoteAttempts": 65,
     "candidateFunnel": {
-      "ranked": 20,
-      "sourceEligible": 12,
-      "liquidEnough": 0,
-      "notOpen": 0,
-      "cooldownPassed": 0,
+      "ranked": 11,
+      "sourceEligible": 3,
+      "liquidEnough": 1,
+      "notOpen": 1,
+      "cooldownPassed": 1,
       "minimumLiquidityUsd": 30000,
       "retryCooldownMinutes": 60
     },
@@ -708,22 +708,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 103746,
-      "dexscreener": 814560,
+      "rpc": 103760,
+      "dexscreener": 814599,
       "jupiter": 14099,
-      "geckoterminal": 17647,
-      "github": 4499,
-      "other": 49301
+      "geckoterminal": 17649,
+      "github": 4500,
+      "other": 49307
     },
     "rpcByMethod": {
-      "getAccountInfo": 71954,
-      "getTokenLargestAccounts": 31792
+      "getAccountInfo": 71965,
+      "getTokenLargestAccounts": 31795
     },
-    "rpcCalls": 103746,
-    "callsThisHour": 424,
-    "scans": 8530,
-    "lastScanRequests": 46,
-    "averageCallsPerScan": 117.685
+    "rpcCalls": 103760,
+    "callsThisHour": 486,
+    "scans": 8531,
+    "lastScanRequests": 45,
+    "averageCallsPerScan": 117.678
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
