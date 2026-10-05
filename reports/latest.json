@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T02:15:09.461Z",
+  "generatedAt": "2026-10-05T02:20:11.236Z",
   "mode": "paper",
   "version": "0.5.9.35",
   "bankrollUsdPerStrategy": 75,
@@ -63,7 +63,7 @@
     "maxConfirmationPriceDropPct": 1.5,
     "maxConfirmationLiquidityDropPct": 2,
     "stopLossPct": 4,
-    "openPositions": 0,
+    "openPositions": 1,
     "trailingActivationPct": 8,
     "trailingStopPct": 6,
     "trades": 79,
@@ -97,32 +97,32 @@
     }
   },
   "tracking": {
-    "activeCandidates": 104,
-    "earlyPoolCandidates": 80,
+    "activeCandidates": 117,
+    "earlyPoolCandidates": 88,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
-    "quarantinedActive": 2,
-    "examplesWithOutcome": 77727,
-    "netPositive": 14172,
+    "quarantinedActive": 4,
+    "examplesWithOutcome": 77769,
+    "netPositive": 14181,
     "netPositiveRatePct": 18.2,
-    "combinedShadowPnlUsd": -22251.8656,
+    "combinedShadowPnlUsd": -22247.0654,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
     "scans": 58,
-    "selectedCandidates": 345,
-    "hotChecks": 65,
+    "selectedCandidates": 337,
+    "hotChecks": 73,
     "topReasons": [
       {
         "reason": "slechts #/# observaties",
-        "count": 52
+        "count": 57
       },
       {
         "reason": "nog volgen #s",
-        "count": 39
+        "count": 40
       },
       {
         "reason": "hot pairleeftijd buiten bereik",
@@ -133,11 +133,11 @@
         "count": 36
       },
       {
-        "reason": "grootste niet-bevestigde tokenaccount #%",
+        "reason": "koopdruk teruggevallen #",
         "count": 36
       },
       {
-        "reason": "koopdruk teruggevallen #",
+        "reason": "grootste niet-bevestigde tokenaccount #%",
         "count": 36
       },
       {
@@ -146,39 +146,39 @@
       },
       {
         "reason": "hot #m beweging #%",
-        "count": 24
+        "count": 25
       },
       {
         "reason": "#m pump #% boven #%",
-        "count": 23
+        "count": 24
       },
       {
-        "reason": "hot slechts # kopers",
-        "count": 19
+        "reason": "hot liquiditeit $#",
+        "count": 17
       }
     ],
     "exploratoryPaper": {
-      "entries": 7,
-      "closed": 4,
-      "valid": 4,
+      "entries": 8,
+      "closed": 5,
+      "valid": 5,
       "winsAfterEstimatedCosts": 2,
-      "sumEstimatedPnlUsd": 1.2651,
+      "sumEstimatedPnlUsd": 1.2175,
       "warning": "3-minuten schaduwscenario; contract, verkoopquote en echte uitvoering niet gecontroleerd"
     }
   },
   "allCandidateShadow": {
-    "opened": 1041,
-    "open": 25,
-    "closed": 1040,
-    "valid": 796,
-    "invalidOrUnpriced": 244,
-    "winsAfterEstimatedCosts": 422,
-    "estimatedPnlUsd": 552.6963,
+    "opened": 1057,
+    "open": 30,
+    "closed": 1051,
+    "valid": 805,
+    "invalidOrUnpriced": 246,
+    "winsAfterEstimatedCosts": 427,
+    "estimatedPnlUsd": 566.0831,
     "bySource": {
       "new_pools": {
-        "closed": 470,
-        "wins": 355,
-        "estimatedPnlUsd": 544.6764
+        "closed": 476,
+        "wins": 359,
+        "estimatedPnlUsd": 557.923
       },
       "boosts_top": {
         "closed": 47,
@@ -186,9 +186,9 @@
         "estimatedPnlUsd": -8.3234
       },
       "latest_profile": {
-        "closed": 103,
+        "closed": 104,
         "wins": 40,
-        "estimatedPnlUsd": 25.8146
+        "estimatedPnlUsd": 25.6646
       },
       "verified_JTO": {
         "closed": 8,
@@ -201,14 +201,14 @@
         "estimatedPnlUsd": -1.1877
       },
       "trending": {
-        "closed": 84,
+        "closed": 85,
         "wins": 11,
-        "estimatedPnlUsd": -12.1394
+        "estimatedPnlUsd": -12.2894
       },
       "boosts_latest": {
-        "closed": 48,
-        "wins": 12,
-        "estimatedPnlUsd": 9.1933
+        "closed": 49,
+        "wins": 13,
+        "estimatedPnlUsd": 9.6335
       },
       "verified_BONK": {
         "closed": 7,
@@ -447,7 +447,7 @@
     "minimumEntryLiquidityUsd": 30000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-05T02:15:08.493Z",
+      "lastRunAt": "2026-10-05T02:20:09.915Z",
       "lastCycleMs": 0,
       "lastError": null,
       "maximumObservedGapMs": 848859,
@@ -458,8 +458,8 @@
     "buyQuotes": 35,
     "quoteAttempts": 65,
     "candidateFunnel": {
-      "ranked": 11,
-      "sourceEligible": 3,
+      "ranked": 18,
+      "sourceEligible": 10,
       "liquidEnough": 0,
       "notOpen": 0,
       "cooldownPassed": 0,
@@ -615,7 +615,7 @@
     "degraded": false
   },
   "uploadHealth": {
-    "lastSuccessAt": "2026-10-05T02:10:09.389Z",
+    "lastSuccessAt": "2026-10-05T02:15:11.164Z",
     "lastError": null,
     "retrySoon": false
   },
@@ -627,7 +627,7 @@
     "startingBalanceUsd": 75,
     "currentBalanceUsd": 56.763,
     "capitalUsePct": 80,
-    "openExposureUsd": 0,
+    "openExposureUsd": 5,
     "positionCapacity": 9,
     "cumulativePnlUsd": -18.237,
     "principalRecoveryThresholdUsd": 75,
@@ -708,22 +708,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 100938,
-      "dexscreener": 798022,
-      "jupiter": 14095,
-      "geckoterminal": 17195,
-      "github": 4376,
-      "other": 46172
+      "rpc": 101014,
+      "dexscreener": 798504,
+      "jupiter": 14097,
+      "geckoterminal": 17205,
+      "github": 4377,
+      "other": 46269
     },
     "rpcByMethod": {
-      "getAccountInfo": 69949,
-      "getTokenLargestAccounts": 30989
+      "getAccountInfo": 70003,
+      "getTokenLargestAccounts": 31011
     },
-    "rpcCalls": 100938,
-    "callsThisHour": 1858,
-    "scans": 8305,
-    "lastScanRequests": 50,
-    "averageCallsPerScan": 118.097
+    "rpcCalls": 101014,
+    "callsThisHour": 2526,
+    "scans": 8310,
+    "lastScanRequests": 43,
+    "averageCallsPerScan": 118.107
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
