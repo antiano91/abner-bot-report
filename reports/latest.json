@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T17:29:25.262Z",
+  "generatedAt": "2026-10-05T17:30:30.822Z",
   "mode": "paper",
   "version": "0.5.9.35",
   "bankrollUsdPerStrategy": 75,
@@ -97,48 +97,40 @@
     }
   },
   "tracking": {
-    "activeCandidates": 5,
-    "earlyPoolCandidates": 4,
+    "activeCandidates": 6,
+    "earlyPoolCandidates": 3,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 80570,
-    "netPositive": 15233,
+    "examplesWithOutcome": 80572,
+    "netPositive": 15232,
     "netPositiveRatePct": 18.9,
-    "combinedShadowPnlUsd": -22515.9863,
+    "combinedShadowPnlUsd": -22524.7651,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
     "scans": 59,
-    "selectedCandidates": 303,
-    "hotChecks": 48,
+    "selectedCandidates": 301,
+    "hotChecks": 46,
     "topReasons": [
       {
         "reason": "slechts #/# observaties",
-        "count": 48
+        "count": 46
       },
       {
         "reason": "nog volgen #s",
-        "count": 44
+        "count": 42
       },
       {
         "reason": "hot pairleeftijd buiten bereik",
-        "count": 32
+        "count": 30
       },
       {
         "reason": "grootste niet-bevestigde tokenaccount #%",
-        "count": 28
-      },
-      {
-        "reason": "hot #m beweging #%",
-        "count": 23
-      },
-      {
-        "reason": "#m pump #% boven #%",
-        "count": 23
+        "count": 26
       },
       {
         "reason": "hot koopdruk te laag",
@@ -146,6 +138,14 @@
       },
       {
         "reason": "koopdruk teruggevallen #",
+        "count": 22
+      },
+      {
+        "reason": "hot #m beweging #%",
+        "count": 22
+      },
+      {
+        "reason": "#m pump #% boven #%",
         "count": 22
       },
       {
@@ -167,18 +167,18 @@
     }
   },
   "allCandidateShadow": {
-    "opened": 2998,
-    "open": 24,
-    "closed": 2998,
-    "valid": 2326,
-    "invalidOrUnpriced": 672,
-    "winsAfterEstimatedCosts": 1256,
-    "estimatedPnlUsd": 1586.5383,
+    "opened": 3002,
+    "open": 25,
+    "closed": 3001,
+    "valid": 2327,
+    "invalidOrUnpriced": 674,
+    "winsAfterEstimatedCosts": 1257,
+    "estimatedPnlUsd": 1588.6153,
     "bySource": {
       "new_pools": {
-        "closed": 1425,
-        "wins": 1103,
-        "estimatedPnlUsd": 1649.4942
+        "closed": 1426,
+        "wins": 1104,
+        "estimatedPnlUsd": 1651.5712
       },
       "boosts_top": {
         "closed": 149,
@@ -447,7 +447,7 @@
     "minimumEntryLiquidityUsd": 30000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-05T17:29:25.147Z",
+      "lastRunAt": "2026-10-05T17:30:30.713Z",
       "lastCycleMs": null,
       "lastError": null,
       "maximumObservedGapMs": 0,
@@ -458,8 +458,8 @@
     "buyQuotes": 35,
     "quoteAttempts": 65,
     "candidateFunnel": {
-      "ranked": 20,
-      "sourceEligible": 12,
+      "ranked": 18,
+      "sourceEligible": 10,
       "liquidEnough": 0,
       "notOpen": 0,
       "cooldownPassed": 0,
@@ -708,22 +708,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 113330,
-      "dexscreener": 841877,
+      "rpc": 113342,
+      "dexscreener": 841917,
       "jupiter": 14099,
-      "geckoterminal": 18997,
-      "github": 5175,
-      "other": 53022
+      "geckoterminal": 18999,
+      "github": 5176,
+      "other": 53028
     },
     "rpcByMethod": {
-      "getAccountInfo": 78839,
-      "getTokenLargestAccounts": 34491
+      "getAccountInfo": 78847,
+      "getTokenLargestAccounts": 34495
     },
-    "rpcCalls": 113330,
-    "callsThisHour": 1692,
-    "scans": 9202,
-    "lastScanRequests": 51,
-    "averageCallsPerScan": 113.725
+    "rpcCalls": 113342,
+    "callsThisHour": 1753,
+    "scans": 9203,
+    "lastScanRequests": 44,
+    "averageCallsPerScan": 113.72
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
