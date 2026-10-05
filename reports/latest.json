@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:31:09.973Z",
+  "generatedAt": "2026-10-05T14:32:15.318Z",
   "mode": "paper",
   "version": "0.5.9.35",
   "bankrollUsdPerStrategy": 75,
@@ -97,32 +97,32 @@
     }
   },
   "tracking": {
-    "activeCandidates": 4,
-    "earlyPoolCandidates": 1,
+    "activeCandidates": 7,
+    "earlyPoolCandidates": 3,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 80203,
+    "examplesWithOutcome": 80204,
     "netPositive": 15052,
     "netPositiveRatePct": 18.8,
-    "combinedShadowPnlUsd": -22520.3186,
+    "combinedShadowPnlUsd": -22520.4794,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
     "scans": 57,
-    "selectedCandidates": 334,
-    "hotChecks": 57,
+    "selectedCandidates": 335,
+    "hotChecks": 55,
     "topReasons": [
       {
         "reason": "slechts #/# observaties",
-        "count": 57
+        "count": 55
       },
       {
         "reason": "nog volgen #s",
-        "count": 52
+        "count": 50
       },
       {
         "reason": "hot koopdruk te laag",
@@ -167,8 +167,8 @@
     }
   },
   "allCandidateShadow": {
-    "opened": 2628,
-    "open": 23,
+    "opened": 2631,
+    "open": 26,
     "closed": 2629,
     "valid": 2032,
     "invalidOrUnpriced": 597,
@@ -447,7 +447,7 @@
     "minimumEntryLiquidityUsd": 30000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-05T14:31:09.865Z",
+      "lastRunAt": "2026-10-05T14:32:15.219Z",
       "lastCycleMs": null,
       "lastError": null,
       "maximumObservedGapMs": 0,
@@ -460,9 +460,9 @@
     "candidateFunnel": {
       "ranked": 20,
       "sourceEligible": 12,
-      "liquidEnough": 0,
-      "notOpen": 0,
-      "cooldownPassed": 0,
+      "liquidEnough": 1,
+      "notOpen": 1,
+      "cooldownPassed": 1,
       "minimumLiquidityUsd": 30000,
       "retryCooldownMinutes": 60
     },
@@ -708,22 +708,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 110920,
-      "dexscreener": 834708,
+      "rpc": 110939,
+      "dexscreener": 834747,
       "jupiter": 14099,
-      "geckoterminal": 18643,
-      "github": 4998,
-      "other": 52057
+      "geckoterminal": 18645,
+      "github": 4999,
+      "other": 52063
     },
     "rpcByMethod": {
-      "getAccountInfo": 77108,
-      "getTokenLargestAccounts": 33812
+      "getAccountInfo": 77122,
+      "getTokenLargestAccounts": 33817
     },
-    "rpcCalls": 110920,
-    "callsThisHour": 1886,
-    "scans": 9025,
-    "lastScanRequests": 62,
-    "averageCallsPerScan": 114.729
+    "rpcCalls": 110939,
+    "callsThisHour": 1953,
+    "scans": 9026,
+    "lastScanRequests": 50,
+    "averageCallsPerScan": 114.723
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
