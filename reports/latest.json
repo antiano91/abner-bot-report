@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T06:52:22.681Z",
+  "generatedAt": "2026-10-05T06:53:24.174Z",
   "mode": "paper",
   "version": "0.5.9.35",
   "bankrollUsdPerStrategy": 75,
@@ -97,48 +97,48 @@
     }
   },
   "tracking": {
-    "activeCandidates": 6,
-    "earlyPoolCandidates": 3,
+    "activeCandidates": 10,
+    "earlyPoolCandidates": 7,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 79212,
-    "netPositive": 14586,
+    "examplesWithOutcome": 79215,
+    "netPositive": 14587,
     "netPositiveRatePct": 18.4,
-    "combinedShadowPnlUsd": -22411.7251,
+    "combinedShadowPnlUsd": -22413.7775,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
     "scans": 58,
-    "selectedCandidates": 350,
-    "hotChecks": 74,
+    "selectedCandidates": 349,
+    "hotChecks": 75,
     "topReasons": [
       {
         "reason": "slechts #/# observaties",
-        "count": 74
+        "count": 75
       },
       {
         "reason": "nog volgen #s",
-        "count": 70
+        "count": 71
       },
       {
         "reason": "hot pairleeftijd buiten bereik",
-        "count": 47
+        "count": 48
       },
       {
         "reason": "grootste niet-bevestigde tokenaccount #%",
-        "count": 38
+        "count": 39
       },
       {
         "reason": "hot koopdruk te laag",
-        "count": 37
+        "count": 38
       },
       {
         "reason": "koopdruk teruggevallen #",
-        "count": 37
+        "count": 38
       },
       {
         "reason": "hot #m beweging #%",
@@ -150,7 +150,7 @@
       },
       {
         "reason": "hot #m volume $#",
-        "count": 19
+        "count": 20
       },
       {
         "reason": "hot slechts # kopers",
@@ -167,13 +167,13 @@
     }
   },
   "allCandidateShadow": {
-    "opened": 1640,
-    "open": 25,
-    "closed": 1639,
-    "valid": 1261,
+    "opened": 1645,
+    "open": 29,
+    "closed": 1640,
+    "valid": 1262,
     "invalidOrUnpriced": 378,
     "winsAfterEstimatedCosts": 676,
-    "estimatedPnlUsd": 1011.9574,
+    "estimatedPnlUsd": 1011.811,
     "bySource": {
       "new_pools": {
         "closed": 765,
@@ -206,9 +206,9 @@
         "estimatedPnlUsd": -17.3936
       },
       "boosts_latest": {
-        "closed": 76,
+        "closed": 77,
         "wins": 17,
-        "estimatedPnlUsd": 17.6074
+        "estimatedPnlUsd": 17.461
       },
       "verified_BONK": {
         "closed": 11,
@@ -447,7 +447,7 @@
     "minimumEntryLiquidityUsd": 30000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-05T06:52:22.583Z",
+      "lastRunAt": "2026-10-05T06:53:24.080Z",
       "lastCycleMs": null,
       "lastError": null,
       "maximumObservedGapMs": 0,
@@ -458,8 +458,8 @@
     "buyQuotes": 35,
     "quoteAttempts": 65,
     "candidateFunnel": {
-      "ranked": 18,
-      "sourceEligible": 10,
+      "ranked": 16,
+      "sourceEligible": 8,
       "liquidEnough": 0,
       "notOpen": 0,
       "cooldownPassed": 0,
@@ -708,22 +708,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 104400,
-      "dexscreener": 816342,
+      "rpc": 104420,
+      "dexscreener": 816381,
       "jupiter": 14099,
-      "geckoterminal": 17735,
-      "github": 4543,
-      "other": 49550
+      "geckoterminal": 17737,
+      "github": 4544,
+      "other": 49555
     },
     "rpcByMethod": {
-      "getAccountInfo": 72420,
-      "getTokenLargestAccounts": 31980
+      "getAccountInfo": 72434,
+      "getTokenLargestAccounts": 31986
     },
-    "rpcCalls": 104400,
-    "callsThisHour": 3241,
-    "scans": 8574,
-    "lastScanRequests": 46,
-    "averageCallsPerScan": 117.409
+    "rpcCalls": 104420,
+    "callsThisHour": 3308,
+    "scans": 8575,
+    "lastScanRequests": 51,
+    "averageCallsPerScan": 117.404
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
