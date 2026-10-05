@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T04:13:38.505Z",
+  "generatedAt": "2026-10-05T04:18:39.968Z",
   "mode": "paper",
   "version": "0.5.9.35",
   "bankrollUsdPerStrategy": 75,
@@ -97,48 +97,48 @@
     }
   },
   "tracking": {
-    "activeCandidates": 90,
-    "earlyPoolCandidates": 64,
+    "activeCandidates": 80,
+    "earlyPoolCandidates": 50,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
-    "quarantinedActive": 0,
-    "examplesWithOutcome": 78768,
-    "netPositive": 14396,
+    "quarantinedActive": 1,
+    "examplesWithOutcome": 78790,
+    "netPositive": 14402,
     "netPositiveRatePct": 18.3,
-    "combinedShadowPnlUsd": -22611.3032,
+    "combinedShadowPnlUsd": -22605.7787,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
     "scans": 58,
-    "selectedCandidates": 323,
+    "selectedCandidates": 319,
     "hotChecks": 71,
     "topReasons": [
       {
         "reason": "slechts #/# observaties",
-        "count": 59
+        "count": 58
       },
       {
         "reason": "nog volgen #s",
         "count": 49
       },
       {
-        "reason": "hot pairleeftijd buiten bereik",
-        "count": 43
-      },
-      {
         "reason": "hot koopdruk te laag",
-        "count": 43
+        "count": 42
       },
       {
         "reason": "koopdruk teruggevallen #",
-        "count": 43
+        "count": 42
+      },
+      {
+        "reason": "hot pairleeftijd buiten bereik",
+        "count": 42
       },
       {
         "reason": "grootste niet-bevestigde tokenaccount #%",
-        "count": 38
+        "count": 39
       },
       {
         "reason": "hot #m beweging #%",
@@ -167,18 +167,18 @@
     }
   },
   "allCandidateShadow": {
-    "opened": 1292,
-    "open": 22,
-    "closed": 1294,
-    "valid": 1007,
-    "invalidOrUnpriced": 287,
+    "opened": 1299,
+    "open": 25,
+    "closed": 1298,
+    "valid": 1009,
+    "invalidOrUnpriced": 289,
     "winsAfterEstimatedCosts": 532,
-    "estimatedPnlUsd": 653.3423,
+    "estimatedPnlUsd": 650.164,
     "bySource": {
       "new_pools": {
-        "closed": 606,
+        "closed": 608,
         "wins": 453,
-        "estimatedPnlUsd": 657.0906
+        "estimatedPnlUsd": 653.9123
       },
       "boosts_top": {
         "closed": 62,
@@ -447,7 +447,7 @@
     "minimumEntryLiquidityUsd": 30000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-05T04:13:37.111Z",
+      "lastRunAt": "2026-10-05T04:18:38.369Z",
       "lastCycleMs": 0,
       "lastError": null,
       "maximumObservedGapMs": 0,
@@ -458,11 +458,11 @@
     "buyQuotes": 35,
     "quoteAttempts": 65,
     "candidateFunnel": {
-      "ranked": 9,
-      "sourceEligible": 1,
-      "liquidEnough": 0,
-      "notOpen": 0,
-      "cooldownPassed": 0,
+      "ranked": 12,
+      "sourceEligible": 4,
+      "liquidEnough": 1,
+      "notOpen": 1,
+      "cooldownPassed": 1,
       "minimumLiquidityUsd": 30000,
       "retryCooldownMinutes": 60
     },
@@ -615,7 +615,7 @@
     "degraded": false
   },
   "uploadHealth": {
-    "lastSuccessAt": "2026-10-05T04:08:38.454Z",
+    "lastSuccessAt": "2026-10-05T04:13:39.885Z",
     "lastError": null,
     "retrySoon": false
   },
@@ -708,22 +708,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 102173,
-      "dexscreener": 808971,
+      "rpc": 102225,
+      "dexscreener": 809419,
       "jupiter": 14097,
-      "geckoterminal": 17427,
-      "github": 4405,
-      "other": 48419
+      "geckoterminal": 17437,
+      "github": 4406,
+      "other": 48515
     },
     "rpcByMethod": {
-      "getAccountInfo": 70830,
-      "getTokenLargestAccounts": 31343
+      "getAccountInfo": 70866,
+      "getTokenLargestAccounts": 31359
     },
-    "rpcCalls": 102173,
-    "callsThisHour": 1644,
-    "scans": 8421,
-    "lastScanRequests": 29,
-    "averageCallsPerScan": 118.215
+    "rpcCalls": 102225,
+    "callsThisHour": 2251,
+    "scans": 8426,
+    "lastScanRequests": 51,
+    "averageCallsPerScan": 118.217
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
