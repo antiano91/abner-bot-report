@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T12:33:56.317Z",
+  "generatedAt": "2026-10-05T12:35:03.177Z",
   "mode": "paper",
   "version": "0.5.9.35",
   "bankrollUsdPerStrategy": 75,
@@ -98,55 +98,55 @@
   },
   "tracking": {
     "activeCandidates": 4,
-    "earlyPoolCandidates": 1,
+    "earlyPoolCandidates": 3,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 79934,
+    "examplesWithOutcome": 79936,
     "netPositive": 14940,
     "netPositiveRatePct": 18.7,
-    "combinedShadowPnlUsd": -22442.821,
+    "combinedShadowPnlUsd": -22442.9726,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
     "scans": 59,
-    "selectedCandidates": 319,
-    "hotChecks": 48,
+    "selectedCandidates": 320,
+    "hotChecks": 49,
     "topReasons": [
       {
         "reason": "slechts #/# observaties",
-        "count": 48
+        "count": 49
       },
       {
         "reason": "nog volgen #s",
-        "count": 44
+        "count": 45
       },
       {
         "reason": "hot koopdruk te laag",
-        "count": 32
+        "count": 33
       },
       {
         "reason": "koopdruk teruggevallen #",
-        "count": 32
+        "count": 33
       },
       {
         "reason": "grootste niet-bevestigde tokenaccount #%",
-        "count": 25
+        "count": 26
       },
       {
         "reason": "hot pairleeftijd buiten bereik",
-        "count": 18
+        "count": 19
+      },
+      {
+        "reason": "hot #m volume $#",
+        "count": 16
       },
       {
         "reason": "hot #m beweging #%",
         "count": 16
-      },
-      {
-        "reason": "hot #m volume $#",
-        "count": 15
       },
       {
         "reason": "#m pump #% boven #%",
@@ -167,13 +167,13 @@
     }
   },
   "allCandidateShadow": {
-    "opened": 2359,
+    "opened": 2361,
     "open": 23,
-    "closed": 2360,
-    "valid": 1825,
+    "closed": 2362,
+    "valid": 1827,
     "invalidOrUnpriced": 535,
     "winsAfterEstimatedCosts": 996,
-    "estimatedPnlUsd": 1358.7731,
+    "estimatedPnlUsd": 1358.4024,
     "bySource": {
       "new_pools": {
         "closed": 1116,
@@ -201,9 +201,9 @@
         "estimatedPnlUsd": -2.5644
       },
       "trending": {
-        "closed": 184,
+        "closed": 186,
         "wins": 23,
-        "estimatedPnlUsd": -24.0342
+        "estimatedPnlUsd": -24.4049
       },
       "boosts_latest": {
         "closed": 117,
@@ -447,7 +447,7 @@
     "minimumEntryLiquidityUsd": 30000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-05T12:33:56.218Z",
+      "lastRunAt": "2026-10-05T12:35:03.069Z",
       "lastCycleMs": null,
       "lastError": null,
       "maximumObservedGapMs": 0,
@@ -458,8 +458,8 @@
     "buyQuotes": 35,
     "quoteAttempts": 65,
     "candidateFunnel": {
-      "ranked": 18,
-      "sourceEligible": 10,
+      "ranked": 15,
+      "sourceEligible": 7,
       "liquidEnough": 0,
       "notOpen": 0,
       "cooldownPassed": 0,
@@ -708,22 +708,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 109302,
-      "dexscreener": 830080,
+      "rpc": 109319,
+      "dexscreener": 830119,
       "jupiter": 14099,
-      "geckoterminal": 18417,
-      "github": 4885,
-      "other": 51418
+      "geckoterminal": 18419,
+      "github": 4886,
+      "other": 51424
     },
     "rpcByMethod": {
-      "getAccountInfo": 75947,
-      "getTokenLargestAccounts": 33355
+      "getAccountInfo": 75959,
+      "getTokenLargestAccounts": 33360
     },
-    "rpcCalls": 109302,
-    "callsThisHour": 2152,
-    "scans": 8912,
-    "lastScanRequests": 43,
-    "averageCallsPerScan": 115.373
+    "rpcCalls": 109319,
+    "callsThisHour": 2217,
+    "scans": 8913,
+    "lastScanRequests": 49,
+    "averageCallsPerScan": 115.367
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
