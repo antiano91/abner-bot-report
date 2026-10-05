@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T20:54:59.452Z",
+  "generatedAt": "2026-10-05T20:56:01.519Z",
   "mode": "paper",
   "version": "0.5.9.35",
   "bankrollUsdPerStrategy": 75,
@@ -97,23 +97,23 @@
     }
   },
   "tracking": {
-    "activeCandidates": 10,
-    "earlyPoolCandidates": 5,
+    "activeCandidates": 6,
+    "earlyPoolCandidates": 2,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 81002,
-    "netPositive": 15420,
+    "examplesWithOutcome": 81005,
+    "netPositive": 15422,
     "netPositiveRatePct": 19,
-    "combinedShadowPnlUsd": -22657.5831,
+    "combinedShadowPnlUsd": -22668.6486,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
     "scans": 61,
-    "selectedCandidates": 302,
+    "selectedCandidates": 300,
     "hotChecks": 64,
     "topReasons": [
       {
@@ -125,16 +125,16 @@
         "count": 62
       },
       {
-        "reason": "hot koopdruk te laag",
-        "count": 40
+        "reason": "hot pairleeftijd buiten bereik",
+        "count": 39
       },
       {
-        "reason": "hot pairleeftijd buiten bereik",
-        "count": 40
+        "reason": "hot koopdruk te laag",
+        "count": 39
       },
       {
         "reason": "koopdruk teruggevallen #",
-        "count": 40
+        "count": 39
       },
       {
         "reason": "grootste niet-bevestigde tokenaccount #%",
@@ -150,7 +150,7 @@
       },
       {
         "reason": "hot #m volume $#",
-        "count": 22
+        "count": 23
       },
       {
         "reason": "hot liquiditeit $#",
@@ -167,23 +167,23 @@
     }
   },
   "allCandidateShadow": {
-    "opened": 3434,
-    "open": 29,
-    "closed": 3429,
-    "valid": 2650,
-    "invalidOrUnpriced": 779,
-    "winsAfterEstimatedCosts": 1425,
-    "estimatedPnlUsd": 1766.0462,
+    "opened": 3435,
+    "open": 25,
+    "closed": 3434,
+    "valid": 2653,
+    "invalidOrUnpriced": 781,
+    "winsAfterEstimatedCosts": 1427,
+    "estimatedPnlUsd": 1766.686,
     "bySource": {
       "new_pools": {
-        "closed": 1613,
-        "wins": 1251,
-        "estimatedPnlUsd": 1864.5683
+        "closed": 1614,
+        "wins": 1252,
+        "estimatedPnlUsd": 1865.2964
       },
       "boosts_top": {
-        "closed": 172,
-        "wins": 19,
-        "estimatedPnlUsd": -22.5354
+        "closed": 174,
+        "wins": 20,
+        "estimatedPnlUsd": -22.6237
       },
       "latest_profile": {
         "closed": 280,
@@ -447,7 +447,7 @@
     "minimumEntryLiquidityUsd": 30000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-05T20:54:59.342Z",
+      "lastRunAt": "2026-10-05T20:56:01.405Z",
       "lastCycleMs": null,
       "lastError": null,
       "maximumObservedGapMs": 0,
@@ -458,8 +458,8 @@
     "buyQuotes": 35,
     "quoteAttempts": 65,
     "candidateFunnel": {
-      "ranked": 19,
-      "sourceEligible": 11,
+      "ranked": 8,
+      "sourceEligible": 0,
       "liquidEnough": 0,
       "notOpen": 0,
       "cooldownPassed": 0,
@@ -708,22 +708,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 116081,
-      "dexscreener": 850443,
+      "rpc": 116093,
+      "dexscreener": 850488,
       "jupiter": 14099,
-      "geckoterminal": 19419,
-      "github": 5387,
-      "other": 54136
+      "geckoterminal": 19421,
+      "github": 5388,
+      "other": 54142
     },
     "rpcByMethod": {
-      "getAccountInfo": 80828,
-      "getTokenLargestAccounts": 35253
+      "getAccountInfo": 80836,
+      "getTokenLargestAccounts": 35257
     },
-    "rpcCalls": 116081,
-    "callsThisHour": 3330,
-    "scans": 9412,
+    "rpcCalls": 116093,
+    "callsThisHour": 3396,
+    "scans": 9413,
     "lastScanRequests": 49,
-    "averageCallsPerScan": 112.576
+    "averageCallsPerScan": 112.571
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
