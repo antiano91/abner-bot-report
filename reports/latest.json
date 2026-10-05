@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:38:38.729Z",
+  "generatedAt": "2026-10-05T14:39:43.471Z",
   "mode": "paper",
   "version": "0.5.9.35",
   "bankrollUsdPerStrategy": 75,
@@ -97,56 +97,56 @@
     }
   },
   "tracking": {
-    "activeCandidates": 3,
-    "earlyPoolCandidates": 3,
+    "activeCandidates": 4,
+    "earlyPoolCandidates": 4,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
     "batchSizePerTick": 12,
     "quarantinedActive": 0,
-    "examplesWithOutcome": 80217,
-    "netPositive": 15059,
+    "examplesWithOutcome": 80218,
+    "netPositive": 15060,
     "netPositiveRatePct": 18.8,
-    "combinedShadowPnlUsd": -22504.6328,
+    "combinedShadowPnlUsd": -22502.704,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
     "scans": 57,
-    "selectedCandidates": 330,
-    "hotChecks": 53,
+    "selectedCandidates": 331,
+    "hotChecks": 52,
     "topReasons": [
       {
         "reason": "slechts #/# observaties",
-        "count": 53
+        "count": 52
       },
       {
         "reason": "nog volgen #s",
-        "count": 48
-      },
-      {
-        "reason": "hot koopdruk te laag",
-        "count": 37
-      },
-      {
-        "reason": "koopdruk teruggevallen #",
-        "count": 37
+        "count": 47
       },
       {
         "reason": "hot pairleeftijd buiten bereik",
+        "count": 36
+      },
+      {
+        "reason": "hot koopdruk te laag",
+        "count": 35
+      },
+      {
+        "reason": "koopdruk teruggevallen #",
         "count": 35
       },
       {
         "reason": "hot #m beweging #%",
-        "count": 25
+        "count": 24
       },
       {
         "reason": "#m pump #% boven #%",
-        "count": 25
+        "count": 24
       },
       {
         "reason": "grootste niet-bevestigde tokenaccount #%",
-        "count": 23
+        "count": 24
       },
       {
         "reason": "hot #m volume $#",
@@ -167,8 +167,8 @@
     }
   },
   "allCandidateShadow": {
-    "opened": 2642,
-    "open": 22,
+    "opened": 2643,
+    "open": 23,
     "closed": 2644,
     "valid": 2045,
     "invalidOrUnpriced": 599,
@@ -447,7 +447,7 @@
     "minimumEntryLiquidityUsd": 30000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-05T14:38:38.524Z",
+      "lastRunAt": "2026-10-05T14:39:43.364Z",
       "lastCycleMs": null,
       "lastError": null,
       "maximumObservedGapMs": 0,
@@ -458,11 +458,11 @@
     "buyQuotes": 35,
     "quoteAttempts": 65,
     "candidateFunnel": {
-      "ranked": 13,
-      "sourceEligible": 5,
-      "liquidEnough": 0,
-      "notOpen": 0,
-      "cooldownPassed": 0,
+      "ranked": 19,
+      "sourceEligible": 11,
+      "liquidEnough": 1,
+      "notOpen": 1,
+      "cooldownPassed": 1,
       "minimumLiquidityUsd": 30000,
       "retryCooldownMinutes": 60
     },
@@ -610,7 +610,7 @@
     "lastFailureAt": null,
     "lastError": null,
     "dexInFlight": 4,
-    "dexQueued": 2,
+    "dexQueued": 3,
     "pricedCandidatesPerScanMax": 24,
     "degraded": false
   },
@@ -708,22 +708,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 111021,
-      "dexscreener": 834991,
+      "rpc": 111039,
+      "dexscreener": 835029,
       "jupiter": 14099,
-      "geckoterminal": 18657,
-      "github": 5005,
-      "other": 52099
+      "geckoterminal": 18659,
+      "github": 5006,
+      "other": 52105
     },
     "rpcByMethod": {
-      "getAccountInfo": 77181,
-      "getTokenLargestAccounts": 33840
+      "getAccountInfo": 77194,
+      "getTokenLargestAccounts": 33845
     },
-    "rpcCalls": 111021,
-    "callsThisHour": 2333,
-    "scans": 9032,
-    "lastScanRequests": 37,
-    "averageCallsPerScan": 114.689
+    "rpcCalls": 111039,
+    "callsThisHour": 2398,
+    "scans": 9033,
+    "lastScanRequests": 48,
+    "averageCallsPerScan": 114.684
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
