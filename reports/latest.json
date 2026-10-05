@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T11:52:18.989Z",
+  "generatedAt": "2026-10-05T11:53:11.189Z",
   "mode": "paper",
   "version": "0.5.9.35",
   "bankrollUsdPerStrategy": 75,
@@ -98,7 +98,7 @@
   },
   "tracking": {
     "activeCandidates": 4,
-    "earlyPoolCandidates": 3,
+    "earlyPoolCandidates": 4,
     "prelaunchWatched": 0,
     "earlyPrioritySlots": 4,
     "durationMinutes": 15,
@@ -107,38 +107,38 @@
     "examplesWithOutcome": 79848,
     "netPositive": 14895,
     "netPositiveRatePct": 18.7,
-    "combinedShadowPnlUsd": -22442.3965,
+    "combinedShadowPnlUsd": -22443.349,
     "skippedInvalidLogLines": 0
   },
   "entryDiagnostics": {
     "windowMinutes": 60,
-    "scans": 59,
-    "selectedCandidates": 347,
-    "hotChecks": 63,
+    "scans": 60,
+    "selectedCandidates": 351,
+    "hotChecks": 65,
     "topReasons": [
       {
         "reason": "slechts #/# observaties",
-        "count": 63
+        "count": 65
       },
       {
         "reason": "nog volgen #s",
-        "count": 58
-      },
-      {
-        "reason": "hot pairleeftijd buiten bereik",
-        "count": 44
+        "count": 60
       },
       {
         "reason": "grootste niet-bevestigde tokenaccount #%",
-        "count": 44
+        "count": 46
+      },
+      {
+        "reason": "hot pairleeftijd buiten bereik",
+        "count": 45
       },
       {
         "reason": "hot koopdruk te laag",
-        "count": 36
+        "count": 38
       },
       {
         "reason": "koopdruk teruggevallen #",
-        "count": 36
+        "count": 38
       },
       {
         "reason": "hot #m beweging #%",
@@ -167,18 +167,18 @@
     }
   },
   "allCandidateShadow": {
-    "opened": 2271,
+    "opened": 2273,
     "open": 23,
-    "closed": 2272,
-    "valid": 1747,
+    "closed": 2274,
+    "valid": 1749,
     "invalidOrUnpriced": 525,
-    "winsAfterEstimatedCosts": 949,
-    "estimatedPnlUsd": 1324.2768,
+    "winsAfterEstimatedCosts": 950,
+    "estimatedPnlUsd": 1323.546,
     "bySource": {
       "new_pools": {
-        "closed": 1068,
-        "wins": 830,
-        "estimatedPnlUsd": 1363.4607
+        "closed": 1069,
+        "wins": 831,
+        "estimatedPnlUsd": 1363.6597
       },
       "boosts_top": {
         "closed": 109,
@@ -186,9 +186,9 @@
         "estimatedPnlUsd": -16.4378
       },
       "latest_profile": {
-        "closed": 181,
+        "closed": 182,
         "wins": 62,
-        "estimatedPnlUsd": 3.0137
+        "estimatedPnlUsd": 2.0839
       },
       "verified_JTO": {
         "closed": 17,
@@ -447,7 +447,7 @@
     "minimumEntryLiquidityUsd": 30000,
     "prioritizedExitMonitor": {
       "intervalSeconds": 2,
-      "lastRunAt": "2026-10-05T11:52:18.865Z",
+      "lastRunAt": "2026-10-05T11:53:11.070Z",
       "lastCycleMs": null,
       "lastError": null,
       "maximumObservedGapMs": 0,
@@ -458,8 +458,8 @@
     "buyQuotes": 35,
     "quoteAttempts": 65,
     "candidateFunnel": {
-      "ranked": 8,
-      "sourceEligible": 0,
+      "ranked": 17,
+      "sourceEligible": 9,
       "liquidEnough": 0,
       "notOpen": 0,
       "cooldownPassed": 0,
@@ -708,22 +708,22 @@
   "apiUsage": {
     "persistedSince": "2026-09-21T07:19:32.591Z",
     "requestsByProvider": {
-      "rpc": 108731,
-      "dexscreener": 828377,
+      "rpc": 108746,
+      "dexscreener": 828414,
       "jupiter": 14099,
-      "geckoterminal": 18331,
-      "github": 4842,
-      "other": 51192
+      "geckoterminal": 18333,
+      "github": 4843,
+      "other": 51197
     },
     "rpcByMethod": {
-      "getAccountInfo": 75538,
-      "getTokenLargestAccounts": 33193
+      "getAccountInfo": 75549,
+      "getTokenLargestAccounts": 33197
     },
-    "rpcCalls": 108731,
-    "callsThisHour": 3314,
-    "scans": 8869,
-    "lastScanRequests": 46,
-    "averageCallsPerScan": 115.636
+    "rpcCalls": 108746,
+    "callsThisHour": 3374,
+    "scans": 8870,
+    "lastScanRequests": 44,
+    "averageCallsPerScan": 115.629
   },
   "storage": {
     "persistentDataDir": "/data/data/com.termux/files/home/.abner-solana-bot/data",
